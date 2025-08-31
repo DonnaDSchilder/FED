@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Donna Schilder
 
   #### Je startniveau:
-  Blauw
+  Rood
 
   #### Je focus:
   Surface plane)
@@ -33,19 +33,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Coming Soon 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  https://www.uniqlo.com/nl/nl/special-feature/ut/lineup?id=comingsoon
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+  Special Feature- UTme! 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina"> 
+  https://www.uniqlo.com/nl/nl/special-feature/utme
 </details>
 
 
