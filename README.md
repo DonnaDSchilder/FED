@@ -40,12 +40,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Coming Soon 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/comingsoon_01.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/comingsoon_02.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/comingsoon_03.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/comingsoon_04.png" width="375px" alt="omschrijving van de pagina">
   https://www.uniqlo.com/nl/nl/special-feature/ut/lineup?id=comingsoon
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Special Feature- UTme! 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina"> 
+  <img src="readme-images/ut_01.png" width="375px" alt="omschrijving van de pagina"> 
+  <img src="readme-images/ut_02.png" width="375px" alt="omschrijving van de pagina"> 
+  <img src="readme-images/ut_03.png" width="375px" alt="omschrijving van de pagina"> 
+  <img src="readme-images/ut_04.png" width="375px" alt="omschrijving van de pagina"> 
+  <img src="readme-images/ut_05.png" width="375px" alt="omschrijving van de pagina"> 
   https://www.uniqlo.com/nl/nl/special-feature/utme
 </details>
 
