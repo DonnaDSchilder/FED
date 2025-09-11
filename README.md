@@ -95,7 +95,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  UT PRINT COLLECTIES
+  ###UT PRINT COLLECTIES
   
   <img src="readme-images/breakdownschets_01.png" width="200px" alt="breakdown van de hele pagina">
 
@@ -106,7 +106,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/hamburger.png" width="200px" alt="breakdown van een dynamisch deel">
 
   
-  Special Feature- UTme! 
+  ###Special Feature- UTme! 
   
   <img src="readme-images/breakdownschets_02.jpg" width="200px" alt="breakdown van de hele pagina">
 
