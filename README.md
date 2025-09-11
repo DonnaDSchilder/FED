@@ -39,14 +39,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Coming Soon 
+  UT PRINT COLLECTIES
   
   <img src="readme-images/comingsoon_01.png" width="200px" alt="omschrijving van de pagina">
   <img src="readme-images/comingsoon_02.png" width="200px" alt="omschrijving van de pagina">
   <img src="readme-images/comingsoon_03.png" width="200px" alt="omschrijving van de pagina">
   <img src="readme-images/comingsoon_04.png" width="200px" alt="omschrijving van de pagina">
   
-  https://www.uniqlo.com/nl/nl/special-feature/ut/lineup?id=comingsoon
+  https://www.uniqlo.com/nl/nl/special-feature/ut/lineup
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Special Feature- UTme! 
@@ -80,13 +80,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  UT PRINT COLLECTIES
+  <img src="readme-images/breakdownschets_01.jpg" width="200px" alt="breakdown van de hele pagina">
+
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  Hamburger-menu
+  <img src="readme-images/hamburger.jpg" width="200px" alt="breakdown van een dynamisch deel">
 
+  
+  Special Feature- UTme! 
+  <img src="readme-images/breakdownschets_01.jpg" width="200px" alt="breakdown van de hele pagina">
+
+  
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  Hover
+  <img src="readme-images/dummy-plaatje.jpg" width="200px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
