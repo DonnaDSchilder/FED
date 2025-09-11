@@ -70,23 +70,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
   
-  Glocal Code
+  ### Glocal Code
   De website van UNIQLO ziet er best netjes uit, maar mist hier en daar nog een 'lang' attribute en een unieke titel voor elke pagina. Ook zijn er een paar errors te vinden tijdens de HTML-checker die best gemakkelijk te voorkomen zijn door een andere element/attribute te gebruiken.
   
   <img src="readme-images/error.png" width="200px" alt="errors van html checker ">
 
-  Mobile & Touch
+  ### Mobile & Touch
   De website can bijna volledig geroteerd worden, maar niet ondersteboven.
 
-  Headings
+  ### Headings
   Gebruikt soms meer dan 1 h1 per pagina, dit is iets waar ik dus op moet letten en zeker anders moet doen.
 
-  Images
+  ### Images
   Er missen soms alt tekst, en soms is het niet duidelij genoeg wat er te zien is op de foto, ook mist er soms een beschrijving voor afbeeldingne met tekst; wat de tekst op de afbeelding is, wordt niet duidelijk gemaakt.
+  
+  ### Media
+  Er wordt gebruik gemaakt van autoplay op de homepagina, maar dit ga ik niet na maken dus hier hoef ik mij niet druk op te maken.
 </details>
 
-Media
-Er wordt gebruik gemaakt van autoplay op de homepagina, maar dit ga ik niet na maken dus hier hoef ik mij niet druk op te maken.
 
 ## Breakdownschets (week 1)
 
@@ -100,7 +101,7 @@ Er wordt gebruik gemaakt van autoplay op de homepagina, maar dit ga ik niet na m
 
 
   ### dynamisch deel (bijv menu): 
-  Hamburger-menu
+  ### Hamburger-menu
   
   <img src="readme-images/hamburger.png" width="200px" alt="breakdown van een dynamisch deel">
 
@@ -111,7 +112,7 @@ Er wordt gebruik gemaakt van autoplay op de homepagina, maar dit ga ik niet na m
 
   
   ### wellicht nog een dynamisch deel (bijv filter): 
-  Hover
+  ### Hover
   
   <img src="readme-images/hover.png" width="200px" alt="breakdown van nog een dynamisch deel">
 
