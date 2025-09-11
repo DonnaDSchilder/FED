@@ -81,21 +81,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina: 
   UT PRINT COLLECTIES
-  <img src="readme-images/breakdownschets_01.jpg" width="200px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets_01.png" width="200px" alt="breakdown van de hele pagina">
 
 
   ### dynamisch deel (bijv menu): 
   Hamburger-menu
-  <img src="readme-images/hamburger.jpg" width="200px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/hamburger.png" width="200px" alt="breakdown van een dynamisch deel">
 
   
   Special Feature- UTme! 
-  <img src="readme-images/breakdownschets_01.jpg" width="200px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets_02.jpg" width="200px" alt="breakdown van de hele pagina">
 
   
   ### wellicht nog een dynamisch deel (bijv filter): 
   Hover
-  <img src="readme-images/dummy-plaatje.jpg" width="200px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/hover.png" width="200px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
