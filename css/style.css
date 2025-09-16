@@ -1,3 +1,8 @@
+:root{
+    --border-gray: #dadada;
+}
+
+
 header ul{
     list-style: none;
     display: flex;
@@ -23,6 +28,36 @@ nav ul:nth-of-type(1){
     padding-right: 1em;
 }
 
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    
+}
+
+
+section ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    font-size: small;
+    padding-right: 1em;
+    text-align: center;
+}
+
+ul:nth-of-type(1){
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    outline: 1em;
+    border-bottom: 1px solid var(--border-gray)
+}
+
+
+
 footer ul{
     list-style: none;
     display: flex;
@@ -32,6 +67,20 @@ footer ul{
 
 footer ul img:nth-of-type(1){
     height: 3em;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform:uppercase;
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform:uppercase; 
 }
 
 main section ul:nth-of-type(1){
