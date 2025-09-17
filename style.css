@@ -1,3 +1,10 @@
+:root{
+    --border-gray: #dadada;
+    box-sizing:border-box;
+
+}
+
+
 header ul{
     list-style: none;
     display: flex;
@@ -9,7 +16,13 @@ header ul{
     padding-right: 1em;
 }
 header ul img:nth-of-type(1){
+    height: 2em;
+}
+
+header ul button{
     height: 3em;
+    border: none;
+    background: none;
 }
 
 nav ul:nth-of-type(1){
@@ -23,6 +36,35 @@ nav ul:nth-of-type(1){
     padding-right: 1em;
 }
 
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    
+}
+
+
+section ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    font-size: small;
+    padding-right: 2em;
+    text-align: center;
+}
+
+main > ul:first-of-type{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    outline: 1em;
+    border-bottom: 1px solid var(--border-gray)
+}
+
+
 footer ul{
     list-style: none;
     display: flex;
@@ -30,22 +72,97 @@ footer ul{
     padding-right: 1em;
 }
 
-footer ul img:nth-of-type(1){
+footer ul img{
     height: 3em;
 }
 
-main section ul:nth-of-type(1){
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform:uppercase;
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform:uppercase; 
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+
+section ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
     margin: 0;
     padding: 0;
+    overflow-x:auto;
+    overscroll-behavior-x:contain;
+    gap: 2em;
+    width: 100%;
 }
-main section ul img:nth-of-type(1){
-    height: 4em;
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x*/
+
+
+main > section:first-of-type > ul img{
+    height: 5em;
     border-radius: 50%;
 }
 
-main section ul li:nth-of-type(1){
+main > section:first-of-type > ul {
+    justify-content: space-between;
+}
+
+section ul li{
     text-align: center;
+}
+
+section > ul li img{
+    height: 12rem;
+}
+
+section:nth-of-type(4)> article{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+section:nth-of-type(5) > img{
+    height: 12rem;
+}
+section:nth-of-type(5) {
+    display: flex;
+    justify-content: center;
+}
+
+main > ul:nth-of-type(2){
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    align-items: start;
+    text-align: start;
+    padding: 0;
+}
+
+main > ul:nth-of-type(2) > li{
+    text-transform:none;
 }
