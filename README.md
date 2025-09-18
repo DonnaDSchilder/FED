@@ -134,21 +134,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1: Insa| student 2: Mary-Jayne| student 3 Nauofal | student 4 Donna |
-  | ---            | ---                  | ---               | ---                  |
-  | dit bespreken  | en dit               | en ik dit         | en dan ik dat        |
-  | en dat ook nog | dit als er tijd i  s | nog een punt      | dit wil ik zeker     |
-  | ...            | ...                  | ...               | ...                  |
+  | student 1: Insa             | student 2: Mary-Jayne| student 3 Nauofal | student 4 Donna |
+  | ---                         | ---                  | ---               | ---                  |
+  | H1, mag dat als afbeelding? | en dit               | en ik dit         | en dan ik dat        |
+  | ...                         | nog een punt         | dit wil ik zeker  |                      | 
+  | ...                         | ...                  | ...               | ...                  |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+Dit gesprek werd vooral gebruikt om te checken of alles goed ging en of er nog vragen waren. Voor mij was het belangrijk om vast te stellen in hoeverre de website die ik ga maken op de originele website van Uniqlo moet lijken. Ik was namelijk van plan om nog iets met illustraties te doen, omdat de huisstijl van Uniqlo vrij simpel is. Dat is prima, maar ik vond het toch een beetje saai. Ik kreeg dan ook te horen dat ik zeker mijn creativiteit mag inzetten voor extra decoratieve elementen, maar dat het wel belangrijk is om eerst te focussen op de basis van mijn code. Daar was ik het volledig mee eens.
 </details>
 
 
