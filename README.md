@@ -264,8 +264,8 @@ Dit gesprek werd vooral gebruikt om te checken of alles goed ging en of er nog v
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
+  1. [bron 1](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x) Voor het scrollen van de producten
+  2. [bron 2](https://www.w3schools.com/html/html_favicon!) Voor het toevoegen van een favicon
   3. ...
 
 </details>
