@@ -162,7 +162,7 @@ Dit gesprek werd vooral gebruikt om te checken of alles goed ging en of er nog v
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1: Insa             | student 2: Mary-Jayne| student 3 Nauofal      | student 4 Donna |
+  | student 1: Insa             | student 2: Mary-Jayne| student 3 Nauofal      | student 4 Donna      |
   | ---                         | ---                  | ---                    | ---                  |
   | H1, mag dat als afbeelding? | en dit               | Niet aanwezing         | en dan ik dat        |
   | ...                         | nog een punt         |                        |                      | 
@@ -172,11 +172,15 @@ Dit gesprek werd vooral gebruikt om te checken of alles goed ging en of er nog v
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+Ik heb tijdens dit moment mijn code laten zien aan de student assistenten en daar kreeg ik al bijna meteen te horen dat mijn website er netjes en verzorgd uitziet. Hier ben ik natuurlijk erg blij mee. 
 
+Er waren nog wel wat verbeterpuntjes, ik moet er voor zorgen dat ik mijn alt tekst inkort tot alleen de fuctionele waarde van de afbeelding/icoon inplaats van welke kleur het is. Maar in de lessen werd er verteld dat het beide erg nuttig zijn, dus zorg ik ervoor dat ik beide verwerk.
+
+Ik moest er ook op letten dat ik mijn code goed in liet springen, wat ik helemaal vergeten was, maar daar hebben we 'Prettier' voor!
+
+Ook kreeg ik een goede tip, als ik een link, die eigenlijk naar een andere pagina zou gaan, niet "werkend" kan maken maar er wel wil laten uitzien als een link, kan ik dat doen door ee slash (/) te gebruiken, dan gaat de link door naar de pagina waar die al op zit.
+
+Ik moet ook niet vergen een id te zetten bij mijn form input!
 </details>
 
 
@@ -266,6 +270,7 @@ Dit gesprek werd vooral gebruikt om te checken of alles goed ging en of er nog v
 
   1. [bron 1](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x) Voor het scrollen van de producten
   2. [bron 2](https://www.w3schools.com/html/html_favicon!) Voor het toevoegen van een favicon
-  3. ...
+  3. [bron 3](https://www.yonego.com/marketingtermen/anchor-link/) Voor het toevoegen van een anchor link
+  4. ...
 
 </details>
