@@ -1,25 +1,31 @@
-:root{
-    --border-gray: #dadada; /*var omdat het meerdere keren gebruikt wordt*/
+:root {
+/*var omdat het meerdere keren gebruikt wordt en maakt het makkelijker om de kleur(en) overal te veranderen*/
+    --border-gray: #dadada;
     --uniqlo-red: #E60013;
     --black: black;
+    --dark-gray:#444444;
+    scroll-behavior: smooth;
 }
 
 
-body{
-        margin: 0;
+body {
+    margin: 0;
 }
 
-main{
+main {
     padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 
 /*header*/
 
-header{
+header {
     padding-top: 1em;
 }
-header ul{
+
+header ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -29,17 +35,18 @@ header ul{
     padding-left: 1em;
     padding-right: 1em;
 }
-header ul img:nth-of-type(1){
+
+header ul img:nth-of-type(1) {
     height: 2em;
 }
 
-header ul button{
+header ul button {
     height: 3em;
     border: none;
     background: none;
 }
 
-nav ul:nth-of-type(1){
+nav ul:nth-of-type(1) {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -53,28 +60,28 @@ nav ul:nth-of-type(1){
 }
 
 
-header > button {
-  order:-1;
+header>button {
+    order: -1;
 }
 
 
 
-ul li{
+ul li {
     font-family: Arial, Helvetica, sans-serif;
-    text-transform:uppercase;
-    
+    text-transform: uppercase;
+
 }
 
 
-section ul li{
+section ul li {
     font-family: Arial, Helvetica, sans-serif;
-    text-transform:uppercase;
+    text-transform: uppercase;
     font-size: small;
     padding-right: 2em;
     text-align: center;
 }
 
-main > ul:first-of-type{
+main>ul:first-of-type {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -84,51 +91,56 @@ main > ul:first-of-type{
     padding-left: 1em;
     padding-right: 1em;
     outline: 1em;
-    border-bottom: 1px solid var(--border-gray)
+    border-bottom: 1px solid var(--border-gray);
+    text-decoration: none;
 }
 
 
 /*Form*/
 
-form{
-  display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  text-align: center;
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-form > button{
-    margin-top:1em;
+form>button {
+    margin-top: 1em;
     background-color: var(--uniqlo-red);
     border: none;
     padding: 1em;
-    color:white;
+    color: white;
     font-weight: 400;
     transition: 0.2s;
 
 }
-form > label{
-    padding-bottom: 0.5em; 
+
+form>label {
+    padding-bottom: 0.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    font-size: 1.2em;
 }
 
-form > input{
-    margin-bottom: 1em; 
+form>input {
+    margin-bottom: 1em;
 }
 
-form > input:last-of-type{
-padding:3em;
-text-align: left;
+form>input:last-of-type {
+    padding: 3em;
+    text-align: left;
 }
 
 
-form > p{
-   font-family: Arial, Helvetica, sans-serif;
-   text-wrap: balance;
+form>p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: balance;
+    max-width: 80%;
+    font-size:1.2em;
 }
 
-legend{
+legend {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.5em;
@@ -138,136 +150,156 @@ legend{
 
 /*Footer*/
 
-footer > ul{
+footer>ul{
     list-style: none;
     display: flex;
     padding-left: 1em;
     padding-right: 1em;
     margin: 0;
-    border-top:1px solid var(--border-gray);
+    border-top: 1px solid var(--border-gray);
     background-color: #F4F4F4;
-    text-align:center;
+    text-align: center;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
 }
 
-footer ul img{
+footer ul img {
     height: 3em;
 
 }
 
-main > ul:last-of-type a {
+main>ul:last-of-type a {
     text-decoration: none;
     color: var(--black)
 }
 
-main > ul:last-of-type{
-    margin:0;
+main>ul:last-of-type {
+    margin: 0;
 }
 
-h1{
+footer>nav>ul a{
+    text-decoration: none;
+    color: var(--black)
+}
+
+
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 
-h2{
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    text-transform:uppercase; 
+    text-transform: uppercase;
 }
 
-h3{
+h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 2em;
 
 }
 
-h4{
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h5 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.2em;
-    margin:0;
-}
-
-h5{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 1em;
+    color: var(--dark-gray);
 }
 
 
-section ul{
+section ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-    overflow-x:auto;
-    overscroll-behavior-x:contain;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
     gap: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
+
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x*/
 
 
-main > section:first-of-type > ul img{
-    height: 5em;
+main>section:first-of-type>ul img {
+    height: 9em;
     border-radius: 50%;
 }
 
-main > section:first-of-type > ul {
+main>section:first-of-type>ul {
     justify-content: space-between;
 }
 
-section ul li{
+main>ul:first-of-type a {
+    text-decoration: none;
+    color: var(--black)
+}
+
+
+section ul li {
     text-align: center;
 }
 
-section > ul li img{
+section>ul li img {
     height: 18rem;
 }
 
-section:nth-of-type(4)> article{
+section:nth-of-type(4)>article {
     display: grid;
     justify-content: center;
     text-align: center;
 }
 
-section:nth-of-type(5) > img{
+section:nth-of-type(5)>img {
     height: 12rem;
 }
+
 section:nth-of-type(5) {
     display: grid;
     justify-content: center;
     text-align: left;
-    text-wrap: balance; 
+    text-wrap: balance;
 }
 
-
-section > div{
+section>div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    text-transform:uppercase; 
 }
 
-section > div > a{
-    color:var(--black);
+section>div>a {
+    color: var(--black);
     text-decoration-color: var(--uniqlo-red);
     text-decoration-line: 2px solid;
     text-underline-offset: 0.2em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+main>section:first-of-type>ul>li>a {
+    text-decoration:none;
+    color: var(--black)
 }
 
-section:nth-of-type(5) > p {
+section:nth-of-type(5)>p {
     margin: 0;
-    padding-left:1em;
+    padding-left: 1em;
 }
 
-main > ul:nth-of-type(2){
+main>ul:nth-of-type(2) {
     list-style: none;
     display: flex;
     gap: 1em;
@@ -278,32 +310,69 @@ main > ul:nth-of-type(2){
     padding-top: 3em;
 }
 
-main > ul:nth-of-type(2) > li{
-    text-transform:none;
+main>ul:nth-of-type(2)>li {
+    text-transform: none;
 }
 
-main > section{
+main>section {
     padding-top: 1em;
+    padding-bottom: 1.5em;
 }
+
+
+/*pagina 2*/
+div section:first-of-type{
+    display: grid;
+    background-color: #992c2c;
+    position:relative;
+}
+
+div section:first-of-type > img:nth-of-type(1),
+div section:first-of-type > h1,
+div section:first-of-type > p {
+    position:absolute;
+
+}
+
 
 
 /*states*/
 
-a:hover{
-    color:var(--uniqlo-red);
+a:hover {
+    color: var(--uniqlo-red);
     font-weight: bold;
 }
 
-a:focus-visible{
-    border:var(--uniqlo-red);
+a:focus-visible {
+    outline: solid 0.15em var(--uniqlo-red);
+    outline-offset: 0.2em;
 }
 
-form > button:hover{
+img:focus-visible {
+    outline: solid 0.15em var(--uniqlo-red);
+    outline-offset: 0.2em;
+}
+
+form>button:hover {
     transform: scale(1.1);
     transition: 0.4s;
-    cursor:pointer;
+    cursor: pointer;
+    box-shadow:0.2em 0.2em 0 var(--black);
 }
 
-form > button:active{
+form>button:active {
     background-color: lightcoral;
+}
+
+form>button:focus{
+    box-shadow:0 .5em 0 var(--black);
+}
+form>input:focus{
+    outline: dashed ;
+    outline-offset: 0.2em;
+}
+
+
+form>input:invalid{
+    outline-color: var(---black)
 }
