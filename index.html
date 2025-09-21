@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +9,24 @@
     <!--https://www.w3schools.com/html/html_favicon!-->
     <title>UT Print Collecties</title>
 </head>
+<!--in de alt tekst, zeg wat het nut is van de aflbeedingen/buttons inplaats van wat je ziet, dat is nuttiger voor een screenreader-->
 <body>
-    <header>
+        <header>
         <ul>
             <li>
+            <a href= "/">
                 <img src="./images/uniqlo_logo.png" 
-                alt="Een afbeelding van het logo van Uniqlo, het logo heeft twee rode vierkanten met daarop witte tekst, de ene tekst is de Japanse uitspraak van Uniqlo in Katakan, en de rechter is de Engelse uitspraak van het woord Uniqlo.">
-            </li>
+                alt="Een afbeelding van het logo van Uniqlo, dit werkt als een home-button.">
+            </a></li>
             <li>
+                <a href= "/">
                     <img src="./images/ut.png" 
                     alt="Een afbeelding met de letters U en T in het rood, dit staat voor Uniqlo T-shirts.">
-                </li>
+                </a></li>
                 <li>
                     <button>
                         <img src="/images/hamburger.png" 
-                        alt="Een knop dat werkt als een hamburger menu.">
+                        alt="Een knop voor het hamburger menu.">
                     </button>
                 </li>
         </ul>
@@ -31,271 +35,302 @@
 
 
 
-    <main>
+    <main> 
         <ul>
             <li>
-                <p>Dames</p>
+            <a href= "/">
+                <p>Dames</p></a>
             </li>
             <li>
-                <p>Heren</p>
+            <a href= "/">
+                <p>Heren</p></a>
             </li>
             <li>
-                <p>Kids</p>
+            <a href= "/">
+                <p>Kids</p></a>
             </li>
             <li>
-                <p>Baby</p>
+            <a href= "/">
+                <p>Baby</p></a>
             </li>
         </ul>
-        <h1>
-            UT Print Collecties  
-        </h1>
         
+        <h1>
+            UT Print Collecties
+        </h1>
+
+
         <section>
             <h2>
                 Categorie
             </h2>
             <ul>
                 <li>
-                    <img src="./images/nieuwste_items.png" alt="Een afbeelding met een zwarte achtergrond met de tekst 'NEW' in het wit.">
+                    <a href= "#new">
+                    <img src="./images/nieuwste_items.png"
+                        alt="Een afbeelding met een zwarte achtergrond met de tekst 'NEW' in het wit.">
                     <p>
                         Nieuwste items
-                    </p>
+                    </p></a>
                 </li>
                 <li>
-                        <img src="./images/museum.png" alt="Een afbeelding met een zwarte achtergrond met een 2D illustratie van een museum, in het wit.">
+                    <a href= "#museum"> <!--https://www.yonego.com/marketingtermen/anchor-link/-->
+                    <img src="./images/museum.png"
+                        alt="Een afbeelding met een zwarte achtergrond met een 2D illustratie van een museum, in het wit.">
                     <p>
                         Museum
-                    </p>
+                    </p></a>
                 </li>
                 <li>
-                        <img src="./images/kunst_en_design.jpg" alt="Een afbeelding met een zwarte achtergrond met een 2D illustratie van een verf kwast en een mengplaat, in het wit.">
+                     <a href= "/">
+                    <img src="./images/kunst_en_design.jpg"
+                        alt="Een afbeelding met een zwarte achtergrond met een 2D illustratie van een verf kwast en een mengplaat, in het wit.">
                     <p>
                         Kunst & Design
-                    </p>
+                    </p></a>
                 </li>
                 <li>
-                    <img src="./images/manga_en_anime.png" alt="Een afbeelding met een zwarte achtergrond met een 2D illustratie van een pen en een uitlijning van een comic, in het wit.">
+                     <a href= "/">
+                    <img src="./images/manga_en_anime.png"
+                        alt="Een afbeelding met een zwarte achtergrond met een 2D illustratie van een pen en een uitlijning van een comic, in het wit.">
                     <p>
                         Manga & Anime
-                    </p>
+                    </p></a>
                 </li>
                 <li>
-                    <img src="./images/games.png" alt="Een afbeelding met een zwarte achtergrond met een 2D illustratie van een gamecontroler, in het wit.">
+                    <a href= "/">
+                    <img src="./images/games.png"
+                        alt="Een afbeelding met een zwarte achtergrond met een 2D illustratie van een gamecontroler, in het wit.">
                     <p>
                         Games
-                    </p>
+                    </p></a>
                 </li>
                 <li>
-                    <img src="./images/muziek_en_film.png" alt="Een afbeelding met een zwarte achtergrond met een 2D illustratie van een muzieknoot en film-camera, in het wit.">
+                    <a href= "/">
+                    <img src="./images/muziek_en_film.png"
+                        alt="Een afbeelding met een zwarte achtergrond met een 2D illustratie van een muzieknoot en film-camera, in het wit.">
                     <p>
                         Muziek & Film
-                    </p>
+                    </p></a>
                 </li>
             </ul>
         </section>
 
 
-        <section>
+        <section id="new">
             <h3>
                 Nieuwste Items
             </h3>
-                <h4>
-                    Clay Animation
-                </h4>
-                <div><h5>
+            <h4>
+                Clay Animation
+            </h4>
+            <div>
+                <h5>
                     Baby
                 </h5>
                 <a href="utme.html">
-                Bekijk meer</a></div>
-                
-                <ul>
+                    Bekijk meer</a>
+            </div>
+
+            <ul>
                 <li>
-                    <img src="./images/pingu.jpg" alt="Een afbeelding van het karakter 'Pingyu' & 'Shaun het Schaap'. Pingu staat op een licht blauwe achtergrond en Shaun op een gele achtergrond.">
+                    <img src="./images/pingu.jpg"
+                        alt="Een afbeelding van het karakter 'Pingyu' & 'Shaun het Schaap'. Pingu staat op een licht blauwe achtergrond en Shaun op een gele achtergrond.">
                 </li>
                 <li>
-                    <img src="./images/baby_kleding_01.png" alt="">
-                </a>
-            <li>
-                <img src="./images/baby_kleding_02.png" alt="">
-            </li>
-            <li>
-                <img src="./images/baby_kleding_03.png" alt="">
-            </li>
-              </ul>
+                    <img src="./images/baby_kleding_01.png" alt="Een pyjama voor een baby.">
+                <li>
+                    <img src="./images/baby_kleding_02.png" alt="Een pyjama voor een baby.">
+                </li>
+                <li>
+                    <img src="./images/baby_kleding_03.png" alt="Een pyjama voor een baby.">
+                </li>
+            </ul>
 
 
 
-                <h4>
-                    Manga curation
-                </h4>
-                <div><h5>
+            <h4>
+                Manga curation
+            </h4>
+            <div>
+                <h5>
                     Volwassenen
                 </h5>
                 <a href="utme.html">
-                Bekijk meer</a></div>
-                
-                
-             <ul>
+                    Bekijk meer</a>
+            </div>
+
+
+            <ul>
                 <li>
-                    <img src="./images/tomie.png" alt="">
-                 </li>
+                    <img src="./images/tomie.png" alt="Een illustratie van Tomie.">
+                </li>
 
                 <li>
-                    <img src="./images/tomie_shirt01.png" alt="">
+                    <img src="./images/tomie_shirt01.png" alt="Een graphic-shirt van Tomie.">
                 </li>
-                
+
                 <li>
-                <img src="./images/tomie_shirt02.png" alt="">
+                    <img src="./images/tomie_shirt02.png" alt="Een graphic-shirt van Tomie.">
                 </li>
             </ul>
         </section>
 
 
-
+        <a id="museum"></a>
         <section>
             <h3>
                 Museum
             </h3>
-    
+
             <h4>
-                    UT Archive Ukiyo-e
+                UT Archive Ukiyo-e
             </h4>
 
-            <div><h5>
+            <div>
+                <h5>
                     Volwassenen
-            </h5>
+                </h5>
 
-            <a href="utme.html">
-            Bekijk meer</a></div>
+                <a href="utme.html">
+                    Bekijk meer</a>
+            </div>
 
             <ul>
                 <li>
-                 <img src="./images/ukiyoe.png" alt="">
+                    <img src="./images/ukiyoe.png" alt="UT Archive Ukiyo-e">
                 </li>
             </ul>
 
 
-                <h4>
-                    Peanuts
-                </h4>
-               
-                <div><h5>
+            <h4>
+                Peanuts
+            </h4>
+
+            <div>
+                <h5>
                     Kids
                 </h5>
                 <a href="utme.html">
-                Bekijk meer</a></div>
-            
+                    Bekijk meer</a>
+            </div>
+
             <ul>
-                 <li>
-                    <img src="./images/peanuts_sport_club.png" alt="">
+                <li>
+                    <img src="./images/peanuts_sport_club.png" alt="Een illustratie van Snoopy met de tekst 'Peanuts Sports Club.">
                 </li>
                 <li>
-                    <img src="./images/snoopy_shirt01.png" alt="">
+                    <img src="./images/snoopy_shirt01.png" alt="Een shirt, voor kinderen, met Snoopy op de voorkant.">
                 </li>
                 <li>
-                    <img src="./images/snoopy_shirt02.png" alt="">
+                    <img src="./images/snoopy_shirt02.png" alt="Een shirt, voor kinderen, met Snoopy op de voorkant.">
                 </li>
                 <li>
-                    <img src="./images/snoopy_shirt03.png" alt="">
-                 </li>
+                    <img src="./images/snoopy_shirt03.png" alt="Een shirt, voor kinderen, met Snoopy op de voorkant.">
+                </li>
                 </a>
             </ul>
         </section>
-    
-    
 
 
-<form>
-    <legend>
-        Aanvragen
-    </legend>
-    <p>
-        Welke collabs/collecties wil jij nog zien? <br> Vul het formulier in om dat aan ons te laten weten.
-    </p>
-    <label for="vname">Naam:
-    </label>
-    <input type="text">
-
-    <label for="email">Email:
-    </label>
-    <input type="email">
-    
-    <label for="suggestie"> Suggestie:
-    </label>
-    <input type="text">
-
-    <button>
-        Vraag aan
-    </button>
- </form>
 
 
-    <ul> <!--Broodkruimels-->
-        <li>
-            <a href="">
-                Uniqlo Homepage
-            </a>
-        </li>
-        <li>
-            <a href="">
-                UT Collection
-            </a>
-        </li>
-        <li>
-            <a href="">
-                Collection Lineup
-            </a>
-        </li>
-    </ul>
+        <form>
+            <legend>
+                Aanvragen
+            </legend>
+            <p>
+                Welke collabs/collecties wil jij nog zien? Vul het formulier in om dat aan ons te laten weten.
+            </p>
+            <label for="vname">Naam:
+            </label>
+            <input type="text" id="vname"> 
+
+            <label for="email">Email:
+            </label>
+            <input type="email"id="email">
+
+            <label for="suggestie"> Suggestie:
+            </label>
+            <input type="text" id="suggestie">
+
+            <button>
+                Vraag aan
+            </button>
+        </form>
+
+
+
+        
+        <ul> <!--Broodkruimels-->
+            <li>
+                <a href="/">
+                    Uniqlo Homepage
+                </a>
+            </li>
+            <li>
+                <a href="/">
+                    UT Collection
+                </a>
+            </li>
+            <li>
+                <a href="/">
+                    Collection Lineup
+                </a>
+            </li>
+        </ul>
     </main>
 
 
     <footer>
-    <nav>
+        <nav>
+            <ul>
+                <li>
+                    <img src="./images/uniqlo_logo.png"
+                        alt="Een afbeelding van het logo van Uniqlo, het logo heeft twee rode vierkanten met daarop witte tekst, de ene tekst is de Japanse uitspraak van Uniqlo in Katakan, en de rechter is de Engelse uitspraak van het woord Uniqlo.">
+                </li>
+                <li>
+                    <a href="/">
+                    <p>
+                        Uniqlo Top
+                    </p>
+                </a></li>
+                <li>
+                     <a href="/">
+                    <p>
+                        Mijn Account
+                    </p>
+                </a></li>
+                <li>
+                     <a href="/">
+                    <p>
+                        Uniqlo-app
+                    </p>
+                </a></li>
+            </ul>
+        </nav>
         <ul>
             <li>
-                <img src="./images/uniqlo_logo.png" 
-                alt="Een afbeelding van het logo van Uniqlo, het logo heeft twee rode vierkanten met daarop witte tekst, de ene tekst is de Japanse uitspraak van Uniqlo in Katakan, en de rechter is de Engelse uitspraak van het woord Uniqlo.">
-            </li>
-            <li>
                 <p>
-                    Uniqlo Top
+                    Copyright © UNIQLO Co., Ltd. Alle rechten voorbehouden.
                 </p>
             </li>
             <li>
-                <p>
-                    Mijn Account
-                </p>
+                <a href="https://facebook.com/uniqloeurope">
+                    <img src="./images/facebook.svg" alt="Het logo van FaceBook dat je naar de FaceBook pagina van Uniqlo brengt.">
+                </a>
             </li>
             <li>
-                <p>
-                    Uniqlo-app
-                </p>
+                <a href="https://www.instagram.com/uniqloeurope">
+                    <img src="./images/instagram.svg" alt="Het logo van Instagram dat je naar de Instagram pagina van Uniqlo brengt.">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@uniqloeurope">
+                    <img src="./images/tiktok.svg" alt="Het logo van TikTok dat je naar de TikTok pagina van Uniqlo brengt.">
+                </a>
             </li>
         </ul>
-    </nav>
-    <ul>
-        <li>
-            <p>
-            Copyright © UNIQLO Co., Ltd. Alle rechten voorbehouden.  
-            </p>
-        </li>
-        <li>
-            <a href= "https://facebook.com/uniqloeurope">
-                <img src="./images/facebook.svg" alt="">
-            </a>
-        </li>
-        <li>
-            <a href= "https://www.instagram.com/uniqloeurope">
-                <img src="./images/instagram.svg" alt="">
-            </a>
-        </li>
-        <li>
-            <a href= "https://www.tiktok.com/@uniqloeurope">
-                <img src="./images/tiktok.svg" alt="">
-            </a>
-        </li>
-    </ul>
     </footer>
     <script src="./scripts/script.js"></script>
 </body>
