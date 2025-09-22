@@ -164,7 +164,7 @@ Dit gesprek werd vooral gebruikt om te checken of alles goed ging en of er nog v
 
   | student 1: Insa             | student 2: Mary-Jayne| student 3 Nauofal      | student 4 Donna      |
   | ---                         | ---                  | ---                    | ---                  |
-  | H1, mag dat als afbeelding? | en dit               | Niet aanwezing         | en dan ik dat        |
+  | H1, mag dat als afbeelding? | en dit               | Niet aanwezing         | Ik wil dat de li-tjes die niet naar een andere pagina gaan (omdat ik die niet maak) er toch uitzien als linkjes; hoe doe ik dat?        |
   | ...                         | nog een punt         |                        |                      | 
   | ...                         | ...                  |                        | ...                  |
 
