@@ -100,19 +100,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdownschets_01.png" width="200px" alt="breakdown van de hele pagina">
 
 
-  ### dynamisch deel (bijv menu): 
+  ### Dynamisch deel (bijv menu): 
   ### Hamburger-menu
   
   <img src="readme-images/hamburger.png" width="200px" alt="breakdown van een dynamisch deel">
 
   
-  ###Special Feature- UTme! 
+  ### Special Feature- UTme! 
   
   <img src="readme-images/breakdownschets_02.jpg" width="200px" alt="breakdown van de hele pagina">
 
   
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  ### Hover
+  ### Dynamisch deel, hover: 
   
   <img src="readme-images/hover.png" width="200px" alt="breakdown van nog een dynamisch deel">
 
@@ -136,8 +135,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1: Insa             | student 2: Mary-Jayne| student 3 Nauofal | student 4 Donna |
   | ---                         | ---                  | ---               | ---                                         |
-  | H1, mag dat een afbeelding zijn? | nvt                  | en ik dit         | Hoe ver is eigen creatieve inbreng mogelijk |
-  | ...                         |                      | dit wil ik zeker  |                                             | 
+  | H1, mag dat een afbeelding zijn? | nvt                  |          | Hoe ver is eigen creatieve inbreng mogelijk |
+  | ...                         |                      |   |                                             | 
   | ...                         | ...                  | ...               | ...                                         |
 
 
