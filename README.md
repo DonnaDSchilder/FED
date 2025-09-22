@@ -95,7 +95,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  ###UT PRINT COLLECTIES
+  ### UT PRINT COLLECTIES
   
   <img src="readme-images/breakdownschets_01.png" width="200px" alt="breakdown van de hele pagina">
 
@@ -136,7 +136,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1: Insa             | student 2: Mary-Jayne| student 3 Nauofal | student 4 Donna |
   | ---                         | ---                  | ---               | ---                                         |
-  | H1, mag dat als afbeelding? | nvt                  | en ik dit         | Hoe ver is eigen creatieve inbreng mogelijk |
+  | H1, mag dat een afbeelding zijn? | nvt                  | en ik dit         | Hoe ver is eigen creatieve inbreng mogelijk |
   | ...                         |                      | dit wil ik zeker  |                                             | 
   | ...                         | ...                  | ...               | ...                                         |
 
@@ -170,7 +170,6 @@ Dit gesprek werd vooral gebruikt om te checken of alles goed ging en of er nog v
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
 Ik heb tijdens dit moment mijn code laten zien aan de student assistenten en daar kreeg ik al bijna meteen te horen dat mijn website er netjes en verzorgd uitziet. Hier ben ik natuurlijk erg blij mee. 
 
@@ -180,7 +179,7 @@ Ik moest er ook op letten dat ik mijn code goed in liet springen, wat ik helemaa
 
 Ook kreeg ik een goede tip, als ik een link, die eigenlijk naar een andere pagina zou gaan, niet "werkend" kan maken maar er wel wil laten uitzien als een link, kan ik dat doen door ee slash (/) te gebruiken, dan gaat de link door naar de pagina waar die al op zit.
 
-Ik moet ook niet vergen een id te zetten bij mijn form input!
+Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een error!
 </details>
 
 
