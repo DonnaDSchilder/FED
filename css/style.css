@@ -17,8 +17,11 @@
 }
 
 
-body {
+body,
+div>body{
     margin: 0;
+    max-width: 100%;
+    overflow-x: hidden; /*zorgt ervoor dat er geen horizontale scroll is*/
 }
 
 main {
@@ -777,3 +780,4 @@ div nav:last-of-type a:hover{
     transition: var(--trans);
     cursor: pointer;
 }
+
