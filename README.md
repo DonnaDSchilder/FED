@@ -224,7 +224,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   Ik maak altijd gebruik van buttosn voor buttosn en linkjes voor linkjes en het is altijd duidelijk of ze interactief zijn.
 
   ### Color contrast
-  Er is een goed kleurcontrast voor afbeeldingen en knoppen, maar bij het hamburgermenu is dit nog mager, ook dit heb ik meteen aangepast door een andere kleru te gebruiken   zodat dit beter te zien is maar wel passend is voor de huisstijl 
+  Er is een goed kleurcontrast voor afbeeldingen en knoppen, maar bij het hamburgermenu is dit nog mager, ook dit heb ik meteen aangepast door een andere kleru te gebruiken   zodat dit beter te zien is maar wel passend is voor de huisstijl. 
   
 </details>
 
@@ -255,7 +255,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
 
   ### Verslag van meeting
  - Ik heb vragen gesteld over en knop die slecht reageerde op mijn andere knop, waardoor het niet afgespeeld werd. Dit heb ik aangepast door in mijn java neer te zetten dat als(if) de knop bestaat, dat dan pas de fucntion wordt uitgevoerd. Dit was de oplossing voor mijn probleem.
- - Ik merkte tijdens het testen van de focus-mode, mijn linkejs werden afgesneden, dit is natuurlijk niet de bedoeling. Dit he ik kunnen aanpassen door een kleine paddign toe tevoegen waardoor de focus nu niet afgesneden wordt door de <li>!
+ - Ik merkte tijdens het testen van de focus-mode, mijn linkejs werden afgesneden, dit is natuurlijk niet de bedoeling. Dit he ik kunnen aanpassen door een kleine paddign toe tevoegen waardoor de focus nu niet afgesneden wordt door de < li >!
   
 
 </details>
