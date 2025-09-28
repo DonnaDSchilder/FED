@@ -70,19 +70,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
   
-  ### Glocal Code
+  ### Global Code
   De website van UNIQLO ziet er best netjes uit, maar mist hier en daar nog een 'lang' attribute en een unieke titel voor elke pagina. Ook zijn er een paar errors te vinden tijdens de HTML-checker die best gemakkelijk te voorkomen zijn door een andere element/attribute te gebruiken.
   
   <img src="readme-images/error.png" width="200px" alt="errors van html checker ">
 
   ### Mobile & Touch
-  De website can bijna volledig geroteerd worden, maar niet ondersteboven.
+  De website kan bijna volledig geroteerd worden, maar niet ondersteboven.
 
   ### Headings
   Gebruikt soms meer dan 1 h1 per pagina, dit is iets waar ik dus op moet letten en zeker anders moet doen.
 
   ### Images
-  Er missen soms alt tekst, en soms is het niet duidelij genoeg wat er te zien is op de foto, ook mist er soms een beschrijving voor afbeeldingne met tekst; wat de tekst op de afbeelding is, wordt niet duidelijk gemaakt.
+  Er missen soms alt tekst, en soms is het niet duidelijk genoeg wat er te zien is op de foto, ook mist er soms een beschrijving voor afbeeldingne met tekst; wat de tekst op de afbeelding is, wordt niet duidelijk gemaakt.
   
   ### Media
   Er wordt gebruik gemaakt van autoplay op de homepagina, maar dit ga ik niet na maken dus hier hoef ik mij niet druk op te maken.
@@ -193,6 +193,41 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+
+  ### Content
+  Ik heb voor het gebruik van 'plain language' rekening gehouden met de taal die ik heb gebruikt voor bijvoobeeld de knoppen, ook heb ik alle links, buttons en labels goed aangegeven zodat dit duidelijk is voor een screenreader en gebruikers.
+    
+  ### Global Code
+  Er zijn nog errors te vinden binnen mijn code, volgens de validator was het belangrijk om een legend **geen** child te maken van een forum, diet mag niet, ook is het     belangrijk dat ik spaties tussen mijn attributes haal. Dit heb ik meteen toegepast en nu zijn er geen errors meer, alleen info berichten; yay me!
+  
+  <img src="readme-images/validate02.png" width="200px" alt="Document checking van validator.w3">
+
+   ### Keyboard
+   Er missen in mijn code seen paar focus stylen, ik heb een groot deel van de linkjes en buttons al goed gestijled maar ik moet niet vergeten om dit bij **alles** te doen!
+  
+  ### Mobile & Touch
+  De website kan bijna volledig geroteerd worden, maar niet ondersteboven.
+
+  ### Headings
+  Ik heb per pagina maar 1 h1 die bovenaan de pagina staat.
+
+  ### Images
+  Alle afbeeldingen hebben ene duidelijke alt tekst die omschrijft wat er te zien is maar ook of het een interactieve waarde heeft.
+
+  <img src="readme-images/alt-tekst.png" width="200px" alt="Een screenshot out mijn code van een voorbeeld van mijn alt tekst.">
+ 
+
+  ### Media
+  Ik heb 1 SFX die alleen afgespeeld wordt als er op een afbeelding wordt geklikt, de klik is dan de start knop.
+
+  ### Controls
+  Ik maak altijd gebruik van buttosn voor buttosn en linkjes voor linkjes en het is altijd duidelijk of ze interactief zijn.
+
+  ### Color contrast
+  Er is een goed kleurcontrast voor afbeeldingen en knoppen, maar bij het hamburgermenu is dit nog mager, ook dit heb ik meteen aangepast door een andere kleru te gebruiken   zodat dit beter te zien is maar wel passend is voor de huisstijl 
+  
+</details>
+
 </details>
 
 
@@ -213,18 +248,15 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
 
   | student 1: Insa      | student 2: Mary-Jayne          | student 3 Nauofal    | student 4 Donna        |
   | ---            | ---                | ---          | ---              |
-  | x  | Iets met het hamburger menu            | heb ik te veel divs en kan het toch anders    | mijn java stopt ermee; help!   |
+  | x  | Iets met het hamburger menu            | heb ik te veel divs en kan het toch anders?    | mijn java stopt ermee; help!   |
   |  |  |  |  |
-  | ...            | ...                | ...          | ...              |
+  | ...            | ...                | ...          | Mijn focus-mode wordt afgesneden bij mijn eerste pagina, hoe fix ik dit?            |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+ - Ik heb vragen gesteld over en knop die slecht reageerde op mijn andere knop, waardoor het niet afgespeeld werd. Dit heb ik aangepast door in mijn java neer te zetten dat als(if) de knop bestaat, dat dan pas de fucntion wordt uitgevoerd. Dit was de oplossing voor mijn probleem.
+ - Ik merkte tijdens het testen van de focus-mode, mijn linkejs werden afgesneden, dit is natuurlijk niet de bedoeling. Dit he ik kunnen aanpassen door een kleine paddign toe tevoegen waardoor de focus nu niet afgesneden wordt door de <li>!
+  
 
 </details>
 
@@ -267,7 +299,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   Nb. Vermeld de bronnen ook in je code.
 
   1. [bron 1](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x) Voor het scrollen van de producten
-  2. [bron 2](https://www.w3schools.com/html/html_favicon!) Voor het toevoegen van een favicon
+  2. [bron 2](https://www.w3schools.com/html/html_favicon) Voor het toevoegen van een favicon
   3. [bron 3](https://www.yonego.com/marketingtermen/anchor-link/) Voor het toevoegen van een anchor link
   4. [bron 4](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) Voor het toepassen van prefers-reduced-motion
 
