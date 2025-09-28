@@ -211,10 +211,10 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | student 1: Insa      | student 2: Mary-Jayne          | student 3 Nauofal    | student 4 Donna        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | heb ik te veel divs    | mijn java stopt ermee; help!   |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | x  | Iets met het hamburger menu            | heb ik te veel divs en kan het toch anders    | mijn java stopt ermee; help!   |
+  |  |  |  |  |
   | ...            | ...                | ...          | ...              |
 
 
@@ -269,6 +269,6 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   1. [bron 1](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x) Voor het scrollen van de producten
   2. [bron 2](https://www.w3schools.com/html/html_favicon!) Voor het toevoegen van een favicon
   3. [bron 3](https://www.yonego.com/marketingtermen/anchor-link/) Voor het toevoegen van een anchor link
-  4. ...
+  4. [bron 4](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) Voor het toepassen van prefers-reduced-motion
 
 </details>
