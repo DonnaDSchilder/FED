@@ -200,7 +200,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   ### Global Code
   Er zijn nog errors te vinden binnen mijn code, volgens de validator was het belangrijk om een legend **geen** child te maken van een forum, diet mag niet, ook is het     belangrijk dat ik spaties tussen mijn attributes haal. Dit heb ik meteen toegepast en nu zijn er geen errors meer, alleen info berichten; yay me!
   
-  <img src="readme-images/validate02.png" width="200px" alt="Document checking van validator.w3">
+  <img src="readme-images/validate_02.png" width="200px" alt="Document checking van validator.w3">
 
    ### Keyboard
    Er missen in mijn code seen paar focus stylen, ik heb een groot deel van de linkjes en buttons al goed gestijled maar ik moet niet vergeten om dit bij **alles** te doen!
