@@ -1,15 +1,4 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
-
 ## Jij
 
 <details open>
@@ -306,7 +295,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
 
   *Bonus*
   Ik heb nog een paar kleine dingen toegevoegd, zoals een favicon (klein icoontje dat zichtbaar is bij de tab) en als iemand klikt op een categorie, wordt ie meteen doorgescrolt naar de juiste sectie. Hetzelfde geldt voor de 'To Top' "button" dat een linkje is maar eruit ziet en werkt als een button. Bij 'Prefers-reduced-motion' is er een minder 'smooth' scrol maar het werkt dan wel. 
-<img src="readme-images/back-to-top.gif" width="375px" alt="back to top gif">
+<img src="readme-images/back-to-top01.gif" width="375px" alt="back to top gif">
 
 
 
