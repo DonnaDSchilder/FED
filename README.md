@@ -301,11 +301,9 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
 
   
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Het maken van de animaties was eigenlijk een stuk makkelijker dan gedacht, ik had verwacht dat er veel emt JAVA gewerkt moest worden, maar nadat ik hiermee gewerkt heb tijdens de les, bleek dat helemaal niet nodig te zijn en ging dit eigenlik heel gemakkelijk.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
-
+  
   ### Dit was lastig/Is niet gelukt:
   Voor de tweede pagina was het de bedoeling om nog een sectie te maken voor 'hope far away from home' wat een goed doel is dat terug te vinden is op de originele website,
   maar ik bleef tegen hetzelfde probleem aanlopen waardoor ik jammer genoeg dit heb moeten weglaten. Ik heb wel de t-shirt's van de sectie meegenomen, maar de uitleg van      het goede doel heb ik moeten weglaten.
