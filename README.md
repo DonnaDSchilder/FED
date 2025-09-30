@@ -270,9 +270,38 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
+  Voor deze opdracht heb ik twee pagina's kunnen maken die van elkaar verschillen, met de focus op de Surface Plane.
+  
+  *1. Geluid*
+    Op de eerste pagina, is er een hover op de afbeelding van Peanuts. De hover geeft visueel aan dat er iets kan gebeuren. Zodra de gebruiker hier dan op klikt, is er een kort geluidje van Snoopy, een karakter van Peanuts, die aan het lachen is. Dit komt doordat ik in JAVA een variable heb gemaakt voor de audio en afbeelding. Ik geef hier aan dat als er op de pagina de afbeelding aanwezig is, er een function uitgevoerd moet worden om het geluidje af te spelen. De klik werkt als een start-knop, hierdoor is het niet de hele tijd te horen, maar alleen als de gebruiker hier voor kiest.
+      <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="GIF van de Peanuts afbeeling met hover.">
+
+  *2. Animaties*
+  Op de tweede pagina, helemaal onderaan, is er een knop die na 50 seconden uit zichzelf begint te "kloppen". Dit heb ik gedaan door een animation-delay toe te voegen zodat de gebruiker niet meteen al de animatie ziet, maar als ze langer op de pagina zijn. 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Kloppende button">
+  
+  *3. Scroll-animaties*
+  Op de tweede pagina zijn de afbeelingen van de man van Bontekoe en de afbeeldingen van de shirts zo geanimeerd dat als de foto's in de viewpoint komen, ze zichtbaar      worden, Het nadeel is wel dat dit niet zichtbaar is voor alle browsers, maar alleen Chrome. 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="GIF van scroll">
+  
+  
+  *4. Prefers-reduced-motion*
+  Omdat er best veel transitions en animaties zijn op de pagina, heb ik de keuze gemaakt om rekening te houden met mensen die dit niet fijn vinden. Als 'Prefers-reduced-motion' aan staat, zijn de transitions en animaties niet zichtbaar. 
+  
+  *5. SVG icon animatie*
+  Voor pagina 2 is er een icoon van een smiley, dit is een svg dat roteert bij een hover maar ook van kleur veranderd, maar bij het hamburger menu op pagina 1 wordt het pijltje naar de tekst dikker na een hover. Ook dit is een SVG.
+  
+   <img src="readme-images/dummy-plaatje.jpg" width="100px" alt="Gif smiley">
+   <img src="readme-images/dummy-plaatje.jpg" width="100px" alt="Gif Hamburger menu">
+
+  *6. Forms, valid/invalid*
+  Op pagina 1 is er een form waarmee je een suggestie kan insturen. Er is een vak voor je naam, email en suggestie. Is dit niet ingevuld, dan komt er een waarschuwing. Is het fout, dan blijft de border zwart. Maar als het goed is, wordt het groen om aan te geven dat het goed is. Rood voor een fout is best hard en op deze nnaier is het toch duidelijk wat de gebruiker moet doen. Voor de suggestie input is er ene placeholder als "hint" van wat er ingevuld kan worden, maar dit vervangt NIET een label.
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
+  *Bonus*
+  Ik heb nog een paar kleine dingen toegevoegd, zoals een favicon (klein icoontje dat zichtbaar is bij de tab) en als iemand klikt op een categorie, wordt ie meteen doorgescrolt naar de juiste sectie. Hetzelfde geldt voor de 'To Top' "button" dat een linkje is maar eruit ziet en werkt als een button. Bij 'Prefers-reduced-motion' is er een minder 'smooth' scrol maar het werkt dan wel. 
 
+  
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
@@ -296,16 +325,12 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
 
   1. [bron 1](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x) Voor het scrollen van de producten
   2. [bron 2](https://www.w3schools.com/html/html_favicon) Voor het toevoegen van een favicon
   3. [bron 3](https://www.yonego.com/marketingtermen/anchor-link/) Voor het toevoegen van een anchor link
   4. [bron 4](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) Voor het toepassen van prefers-reduced-motion
   5. [bron 5](https://www.youtube.com/watch?v=UmzFk68Bwdk) Voor inspiratie van de scrol-animatie
+  6. [bron 6](https://www.w3schools.com/tags/att_input_placeholder.asp) Voor het toevoegen van een placeholder binnen een input
 
 </details>
