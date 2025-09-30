@@ -274,7 +274,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   
   *1. Geluid*
     Op de eerste pagina, is er een hover op de afbeelding van Peanuts. De hover geeft visueel aan dat er iets kan gebeuren. Zodra de gebruiker hier dan op klikt, is er een kort geluidje van Snoopy, een karakter van Peanuts, die aan het lachen is. Dit komt doordat ik in JAVA een variable heb gemaakt voor de audio en afbeelding. Ik geef hier aan dat als er op de pagina de afbeelding aanwezig is, er een function uitgevoerd moet worden om het geluidje af te spelen. De klik werkt als een start-knop, hierdoor is het niet de hele tijd te horen, maar alleen als de gebruiker hier voor kiest.
-<img src="readme-images/peanuts.hover" width="200x" alt="GIF van de Peanuts afbeeling met hover.">
+<img src="readme-images/peanuts-hover.gif" width="200x" alt="GIF van de Peanuts afbeeling met hover.">
 
   *2. Animaties*
   Op de tweede pagina, helemaal onderaan, is er een knop die na 50 seconden uit zichzelf begint te "kloppen". Dit heb ik gedaan door een animation-delay toe te voegen zodat de gebruiker niet meteen al de animatie ziet, maar als ze langer op de pagina zijn. 
@@ -296,7 +296,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
 
   *6. Forms, valid/invalid*
   Op pagina 1 is er een form waarmee je een suggestie kan insturen. Er is een vak voor je naam, email en suggestie. Is dit niet ingevuld, dan komt er een waarschuwing. Is het fout, dan blijft de border zwart. Maar als het goed is, wordt het groen om aan te geven dat het goed is. Rood voor een fout is best hard en op deze nnaier is het toch duidelijk wat de gebruiker moet doen. Voor de suggestie input is er ene placeholder als "hint" van wat er ingevuld kan worden, maar dit vervangt NIET een label.
-  <img src="readme-images/forms.gif" width="200px" alt="uitomst opdracht 1">
+  <img src="readme-images/form-invalid-valid.png" width="200px" alt="Form dat de valid en invalid states laten zien.png">
 
   *Bonus*
   Ik heb nog een paar kleine dingen toegevoegd, zoals een favicon (klein icoontje dat zichtbaar is bij de tab) en als iemand klikt op een categorie, wordt ie meteen doorgescrolt naar de juiste sectie. Hetzelfde geldt voor de 'To Top' "button" dat een linkje is maar eruit ziet en werkt als een button. Bij 'Prefers-reduced-motion' is er een minder 'smooth' scrol maar het werkt dan wel. 
@@ -311,11 +311,11 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   ### Dit was lastig/Is niet gelukt:
   Voor de tweede pagina was het de bedoeling om nog een sectie te maken voor 'hope far away from home' wat een goed doel is dat terug te vinden is op de originele website,
   maar ik bleef tegen hetzelfde probleem aanlopen waardoor ik jammer genoeg dit heb moeten weglaten. Ik heb wel de t-shirt's van de sectie meegenomen, maar de uitleg van      het goede doel heb ik moeten weglaten.
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/hope-away-from-home.png" width="375px" alt="bummer">
 
-  Iets wat zeker neit gemakkelijk ging was het toevoegen van een hamburger menu. De basis ging goed, de knop om het menu weer te verbergen bleef zich verspringen en als het   uibeeld was, had ik last van een horizontale scroll. Maar, gelukkig, heb ik dit kunnen oplossen door de opdracht uit de les nog een keer te maken en lukte het mij om dit    toch nog op te kunnen lossen.
+  Iets wat zeker niet gemakkelijk ging was het toevoegen van een hamburger menu. De basis ging goed, de knop om het menu weer te verbergen bleef zich verspringen en als het   uibeeld was, had ik last van een horizontale scroll. Maar, gelukkig, heb ik dit kunnen oplossen door de opdracht uit de les nog een keer te maken en lukte het mij om dit    toch nog op te kunnen lossen.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/hammie.png" width="375px" alt="bummer">
 </details>
 
 
