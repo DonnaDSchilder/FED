@@ -273,34 +273,43 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   Voor deze opdracht heb ik twee pagina's kunnen maken die van elkaar verschillen, met de focus op de Surface Plane.
   
   *1. Geluid*
-    Op de eerste pagina, is er een hover op de afbeelding van Peanuts. De hover geeft visueel aan dat er iets kan gebeuren. Zodra de gebruiker hier dan op klikt, is er een kort geluidje van Snoopy, een karakter van Peanuts, die aan het lachen is. Dit komt doordat ik in JAVA een variable heb gemaakt voor de audio en afbeelding. Ik geef hier aan dat als er op de pagina de afbeelding aanwezig is, er een function uitgevoerd moet worden om het geluidje af te spelen. De klik werkt als een start-knop, hierdoor is het niet de hele tijd te horen, maar alleen als de gebruiker hier voor kiest.
-<img src="readme-images/peanuts-hover.gif" width="600px" alt="GIF van de Peanuts afbeeling met hover.">
+  <img src="readme-images/peanuts-hover.gif" width="400px" alt="GIF van de Peanuts afbeeling met hover.">
+  
+  Op de eerste pagina, is er een hover op de afbeelding van Peanuts. De hover geeft visueel aan dat er iets kan gebeuren. Zodra de gebruiker hier dan op klikt, is er een kort geluidje van Snoopy, een karakter van Peanuts, die aan het lachen is. Dit komt doordat ik in JAVA een variable heb gemaakt voor de audio en afbeelding. Ik geef hier aan dat als er op de pagina de afbeelding aanwezig is, er een function uitgevoerd moet worden om het geluidje af te spelen. De klik werkt als een start-knop, hierdoor is het niet de hele tijd te horen, maar alleen als de gebruiker hier voor kiest.
+
+
 
   *2. Animaties*
-  Op de tweede pagina, helemaal onderaan, is er een knop die na 50 seconden uit zichzelf begint te "kloppen". Dit heb ik gedaan door een animation-delay toe te voegen zodat de gebruiker niet meteen al de animatie ziet, maar als ze langer op de pagina zijn. 
   <img src="readme-images/delay-button.gif" width="375px" alt="Kloppende button">
   
+  Op de tweede pagina, helemaal onderaan, is er een knop die na 50 seconden uit zichzelf begint te "kloppen". Dit heb ik gedaan door een animation-delay toe te voegen zodat de gebruiker niet meteen al de animatie ziet, maar als ze langer op de pagina zijn. 
+  
   *3. Scroll-animaties*
+   <img src="readme-images/scroll-animaties.gif" width="375px" alt="GIF van scroll">
+   
   Op de tweede pagina zijn de afbeelingen van de man van Bontekoe en de afbeeldingen van de shirts zo geanimeerd dat als de foto's in de viewpoint komen, ze zichtbaar         worden, Het nadeel is wel dat dit niet zichtbaar is voor alle browsers, maar alleen Chrome. 
-  <img src="readme-images/scroll-animaties.gif" width="375px" alt="GIF van scroll">
   
   
   *4. Prefers-reduced-motion*
   Omdat er best veel transitions en animaties zijn op de pagina, heb ik de keuze gemaakt om rekening te houden met mensen die dit niet fijn vinden. Als 'Prefers-reduced-motion' aan staat, zijn de transitions en animaties niet zichtbaar. 
   
   *5. SVG icon animatie*
+     <img src="readme-images/smiley-hover.gif" width="200px" alt="Gif smiley">
+   <img src="readme-images/hamburger-hover.gif" width="200px" alt="Gif Hamburger menu">
+ 
   Voor pagina 2 is er een icoon van een smiley, dit is een svg dat roteert bij een hover maar ook van kleur veranderd, maar bij het hamburger menu op pagina 1 wordt het pijltje naar de tekst dikker na een hover. Ook dit is een SVG.
   
-   <img src="readme-images/smiley-hover.gif" width="200px" alt="Gif smiley">
-   <img src="readme-images/hamburger-hover.gif" width="200px" alt="Gif Hamburger menu">
+
 
   *6. Forms, valid/invalid*
+    <img src="readme-images/form-invalid-valid.png" width="400px" alt="Form dat de valid en invalid states laten zien.png">
   Op pagina 1 is er een form waarmee je een suggestie kan insturen. Er is een vak voor je naam, email en suggestie. Is dit niet ingevuld, dan komt er een waarschuwing. Is het fout, dan blijft de border zwart. Maar als het goed is, wordt het groen om aan te geven dat het goed is. Rood voor een fout is best hard en op deze nnaier is het toch duidelijk wat de gebruiker moet doen. Voor de suggestie input is er ene placeholder als "hint" van wat er ingevuld kan worden, maar dit vervangt NIET een label.
-  <img src="readme-images/form-invalid-valid.png" width="400px" alt="Form dat de valid en invalid states laten zien.png">
+
 
   *Bonus*
+  <img src="readme-images/back-to-top.gif" width="375px" alt="back to top gif">
   Ik heb nog een paar kleine dingen toegevoegd, zoals een favicon (klein icoontje dat zichtbaar is bij de tab) en als iemand klikt op een categorie, wordt ie meteen doorgescrolt naar de juiste sectie. Hetzelfde geldt voor de 'To Top' "button" dat een linkje is maar eruit ziet en werkt als een button. Bij 'Prefers-reduced-motion' is er een minder 'smooth' scrol maar het werkt dan wel. 
-<img src="readme-images/back-to-top.gif" width="375px" alt="back to top gif">
+
 
 
   
