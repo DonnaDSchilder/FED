@@ -280,7 +280,11 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Voor de tweede pagina was het de bedoeling om nog een sectie te maken voor 'hope far away from home' wat een goed doel is dat terug te vinden is op de originele website,
+  maar ik bleef tegen hetzelfde probleem aanlopen waardoor ik jammer genoeg dit heb moeten weglaten. Ik heb wel de t-shirt's van de sectie meegenomen, maar de uitleg van      het goede doel heb ik moeten weglaten.
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+
+  Iets wat zeker neit gemakkelijk ging was het toevoegen van een hamburger menu. De basis ging goed, de knop om het menu weer te verbergen bleef zich verspringen en als het   uibeeld was, had ik last van een horizontale scroll. Maar, gelukkig, heb ik dit kunnen oplossen door de opdracht uit de les nog een keer te maken en lukte het mij om dit    toch nog op te kunnen lossen.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -302,5 +306,6 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   2. [bron 2](https://www.w3schools.com/html/html_favicon) Voor het toevoegen van een favicon
   3. [bron 3](https://www.yonego.com/marketingtermen/anchor-link/) Voor het toevoegen van een anchor link
   4. [bron 4](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) Voor het toepassen van prefers-reduced-motion
+  5. [bron 5](https://www.youtube.com/watch?v=UmzFk68Bwdk) Voor inspiratie van de scrol-animatie
 
 </details>
