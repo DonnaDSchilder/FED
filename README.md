@@ -265,7 +265,6 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   *1. Geluid*
   Op de eerste pagina, is er een hover op de afbeelding van Peanuts. De hover geeft visueel aan dat er iets kan gebeuren. Zodra de gebruiker hier dan op klikt, is er een kort geluidje van Snoopy, een karakter van Peanuts, die aan het lachen is. Dit komt doordat ik in JAVA een variable heb gemaakt voor de audio en afbeelding. Ik geef hier aan dat als er op de pagina de afbeelding aanwezig is, er een function uitgevoerd moet worden om het geluidje af te spelen. De klik werkt als een start-knop, hierdoor is het niet de hele tijd te horen, maar alleen als de gebruiker hier voor kiest.
 
-<img src="readme-images/peanuts-hover.gif" width="400px" alt="GIF van de Peanuts afbeeling met hover.">
 
 
   *2. Animaties*
