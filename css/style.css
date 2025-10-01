@@ -624,12 +624,12 @@ div > main section:nth-of-type(4) > img {
   /*Pas wanneer het in de viewport komt, speelt het af, nog niet voor alle browsers beschikbaar*/
 }
 div > main section:nth-of-type(4) p {
-  padding: 2em;
-  padding-left: 2em;
-  padding-right: 2em;
   text-align: center;
   min-width: 10%;
   max-width: 80%;
+  padding: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-bottom: 0;
 }
 
@@ -663,6 +663,7 @@ div main > ul:last-of-type h4 {
 }
 
 div main > ul:last-of-type p {
+  font-size: 0.9em;
   min-width: 7em;
   max-width: 70em;
 }
@@ -907,3 +908,4 @@ footer > ul img:hover {
 
 
 /*Laatste check:https://chatgpt.com/share/68dda0f3-fbe0-800c-8fd9-039fe11032d4*/
+
