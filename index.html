@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="icon" type="image/svg+xml" href="./images/uniqlo_logo.svg" />
+    <link rel="icon" type="image/svg+xml" href="./images/uniqlo-logo.svg" />
     <!--https://www.w3schools.com/html/html_favicon!-->
     <title>UT Print Collecties</title>
   </head>
@@ -39,7 +39,6 @@
       </ul>
 
       <nav>
-        <!--In een aparte nav dat alleen vergeven wordt er op -->
         <ul>
           <li>
             <button>
@@ -51,9 +50,29 @@
           </li>
           <li>
             <a href="/">
-              <p>Print collecties</p>
-            </a>
-            <a href="utme.html"> <p>UTMe!</p></a>
+              Print collecties
+              <svg viewBox="0 0 800 800">
+                <polyline
+                  points="348.88 277.47 454.11 403.09 345.89 522.53"
+                  fill="none"
+                  stroke="#6b6b6b"
+                  stroke-linejoin="round"
+                  stroke-width="28"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a href="utme.html">
+              UTMe!
+              <svg viewBox="0 0 800 800">
+                <polyline
+                  points="348.88 277.47 454.11 403.09 345.89 522.53"
+                  fill="none"
+                  stroke="#6b6b6b"
+                  stroke-linejoin="round"
+                  stroke-width="28"
+                /></svg
+            ></a>
           </li>
         </ul>
       </nav>
@@ -62,16 +81,16 @@
     <main>
       <ul>
         <li>
-          <a href="/"> <p>Dames</p></a>
+          <a href="/"> Dames</a>
         </li>
         <li>
-          <a href="/"> <p>Heren</p></a>
+          <a href="/"> Heren</a>
         </li>
         <li>
-          <a href="/"> <p>Kids</p></a>
+          <a href="/"> Kids</a>
         </li>
         <li>
-          <a href="/"> <p>Baby</p></a>
+          <a href="/"> Baby</a>
         </li>
       </ul>
 
@@ -230,7 +249,7 @@
           <li>
             <img
               src="./images/peanuts_sport_club.png"
-              alt="Een illustratie van Snoopy met de tekst 'Peanuts Sports Club."
+              alt="Een illustratie van Snoopy met de tekst 'Peanuts Sports Club, bij een klik is een lachende Snoopy te horen."
             />
           </li>
           <li>
@@ -262,17 +281,22 @@
         </p>
 
         <label for="vname">Naam: </label>
-        <input type="text" id="vname" />
+        <input type="text" id="vname" required /> <!--Required geeft aan dat het ingevuld MOET worden, anders kan de gebruiker niet verder.-->
 
         <label for="email">Email: </label>
-        <input type="email" id="email" />
+        <input type="email" id="email" required />
 
         <label for="suggestie"> Suggestie: </label>
-        <input type="text" id="suggestie" />
+        <input
+          type="text"
+          id="suggestie"
+          placeholder="Mijn suggestie is..."
+          required
+        />
+        <!--Placeholder zorgt ervoor dat de gebruiker een soort 'hint' krijgt over wat ie kan invullen maar vervangt niet een label-->
 
         <button type="submit">Vraag aan</button>
       </form>
-
 
       <ul>
         <!--Broodkruimels-->
@@ -294,22 +318,22 @@
           <li>
             <img
               src="./images/uniqlo_logo.png"
-              alt="Een afbeelding van het logo van Uniqlo, het logo heeft twee rode vierkanten met daarop witte tekst, de ene tekst is de Japanse uitspraak van Uniqlo in Katakan, en de rechter is de Engelse uitspraak van het woord Uniqlo."
+              alt="Een afbeelding van het logo van Uniqlo, het logo heeft twee rode vierkanten met daarop witte tekst, met dit logo ga je naar de home pagina."
             />
           </li>
           <li>
             <a href="/">
-              <p>Uniqlo Top</p>
+              Uniqlo Top
             </a>
           </li>
           <li>
             <a href="/">
-              <p>Mijn Account</p>
+              Mijn Account
             </a>
           </li>
           <li>
             <a href="/">
-              <p>Uniqlo-app</p>
+              Uniqlo-app
             </a>
           </li>
         </ul>
@@ -317,8 +341,9 @@
 
       <ul>
         <li>
-          <p>Copyright © UNIQLO Co., Ltd. Alle rechten voorbehouden.</p>
+          Copyright © UNIQLO Co., Ltd. Alle rechten voorbehouden.
         </li>
+        <div>
         <li>
           <a href="https://facebook.com/uniqloeurope">
             <img
@@ -344,7 +369,7 @@
               alt="Het logo van TikTok dat je naar de TikTok pagina van Uniqlo brengt."
             />
           </a>
-        </li>
+        </li></div>
       </ul>
     </footer>
     <script src="./scripts/script.js"></script>
