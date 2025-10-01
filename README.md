@@ -328,5 +328,6 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   4. [bron 4](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) Voor het toepassen van prefers-reduced-motion
   5. [bron 5](https://www.youtube.com/watch?v=UmzFk68Bwdk) Voor inspiratie van de scrol-animatie
   6. [bron 6](https://www.w3schools.com/tags/att_input_placeholder.asp) Voor het toevoegen van een placeholder binnen een input
+  7. [bron 7](https://chatgpt.com/share/68dda0f3-fbe0-800c-8fd9-039fe11032d4) Voor het nakijken van de laatste versie van mijn code
 
 </details>
