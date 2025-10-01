@@ -30,21 +30,18 @@
   #### Screenshot(s) van de eerste pagina (small screen): 
   UT PRINT COLLECTIES
   
-  <img src="readme-images/comingsoon_01.png" width="200px" alt="omschrijving van de pagina">
-  <img src="readme-images/comingsoon_02.png" width="200px" alt="omschrijving van de pagina">
-  <img src="readme-images/comingsoon_03.png" width="200px" alt="omschrijving van de pagina">
-  <img src="readme-images/comingsoon_04.png" width="200px" alt="omschrijving van de pagina">
+  <img src="readme-images/comingsoon_01.png" width="200px" alt="Een categorie sectie met verschillende shirts.">
+  <img src="readme-images/comingsoon_02.png" width="200px" alt="Verschillende schirts met een button 'bekijk meer'.">
+  <img src="readme-images/comingsoon_04.png" width="200px" alt="Footer met broodkruimels en social media">
   
   https://www.uniqlo.com/nl/nl/special-feature/ut/lineup
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Special Feature- UTme! 
   
-  <img src="readme-images/ut_01.png" width="200px" alt="omschrijving van de pagina"> 
-  <img src="readme-images/ut_02.png" width="200px" alt="omschrijving van de pagina"> 
-  <img src="readme-images/ut_03.png" width="200px" alt="omschrijving van de pagina"> 
-  <img src="readme-images/ut_04.png" width="200px" alt="omschrijving van de pagina"> 
-  <img src="readme-images/ut_05.png" width="200px" alt="omschrijving van de pagina"> 
+  <img src="readme-images/ut_01.png" width="200px" alt="Foto met een logo en h1 met tekst."> 
+  <img src="readme-images/ut_02.png" width="200px" alt="Verschillende iconen met tekst"> 
+  <img src="readme-images/ut_05.png" width="200px" alt="FAQ met button en fixed nav."> 
   
   https://www.uniqlo.com/nl/nl/special-feature/utme
 </details>
@@ -237,7 +234,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
 
   | student 1: Insa      | student 2: Mary-Jayne          | student 3 Nauofal    | student 4 Donna        |
   | ---            | ---                | ---          | ---              |
-  | x  | Iets met het hamburger menu            | heb ik te veel divs en kan het toch anders?    | mijn java stopt ermee; help!   |
+  | Hoe zet ik details over producten in buttons(links)  | Iets met het hamburger menu            | heb ik te veel divs en kan het toch anders?    | mijn java stopt ermee; help!   |
   |  |  |  |  |
   | ...            | ...                | ...          | Mijn focus-mode wordt afgesneden bij mijn eerste pagina, hoe fix ik dit?            |
 
