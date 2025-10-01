@@ -15,7 +15,7 @@
   --font-fam: Arial, Helvetica, sans-serif;
   --trans: 0.4s ease-in-out;
   --fast-trans: 0.3s ease;
-  --green: rgb(20, 160, 20);
+  --green: rgb(4, 59, 4);
   --textform-attention: uppercase;
   scroll-behavior: smooth;
 }
@@ -134,6 +134,7 @@ main > ul:first-of-type a {
   text-underline-offset: 0.2em;
 }
 
+
 /*hamburger menu*/
 
 header > nav {
@@ -197,6 +198,8 @@ header > nav li svg {
   transition: var(--fast-trans);
 }
 
+
+
 /*Form*/
 
 form {
@@ -255,6 +258,7 @@ form > input::placeholder {
   color: var(--mid-gray);
 }
 
+
 /*Footer*/
 
 footer > ul {
@@ -274,20 +278,14 @@ footer ul img {
   transition: var(--trans);
 }
 
-main > ul:last-of-type a {
-  text-decoration: none;
-  color: var(--black);
-}
-
-main > ul:last-of-type {
-  margin: 0;
-}
-
 footer > nav > ul a {
   text-decoration-color: var(--uniqlo-red);
   text-underline-offset: 0.2em;
   color: var(--black);
 }
+
+
+/*Main elements, content etc*/
 
 h1 {
   font-family: var(--font-fam);
@@ -341,6 +339,8 @@ section ul {
 section:nth-of-type(3) > ul:last-of-type > li:first-of-type img:first-child {
   border: 0.15em dotted var(--uniqlo-red);
 }
+
+
 
 /*Categorie*/
 
@@ -410,6 +410,7 @@ section:nth-of-type(5) > p {
   padding-left: 1em;
 }
 
+
 /*broodkruimels*/
 
 main > ul:nth-of-type(2) {
@@ -446,6 +447,18 @@ main > section {
   padding-bottom: 1.5em;
 }
 
+main > ul:last-of-type {
+  margin: 0;
+}
+
+main > ul:last-of-type a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+
+
+
 /*pagina 2*/
 
 div > header {
@@ -471,6 +484,8 @@ div > main > section:nth-of-type(4) {
   padding-right: 1.5em;
 }
 
+
+
 /*Foto*/
 
 div section:first-of-type > img {
@@ -487,7 +502,10 @@ div > main > div:first-of-type {
   padding-bottom: 4em;
 }
 
+
+
 /*Pagina Nav*/
+
 div > main > nav {
   padding-bottom: 2em;
 }
@@ -500,6 +518,7 @@ div > main > nav:first-of-type > ul > li a {
   color: var(--black);
   text-decoration: none;
 }
+
 
 /*Jouw ontwerp*/
 
@@ -685,6 +704,7 @@ div main > section:last-of-type details {
   max-width: 80em;
 }
 
+
 /*Ontdek onze UT-collecties*/
 
 div > main > div:nth-last-of-type(2) {
@@ -730,6 +750,8 @@ div > main > div:nth-last-of-type(2) > a {
   }
 }
 
+
+
 /*To Top*/
 
 div > main > div:last-of-type {
@@ -749,7 +771,10 @@ div > main > div:last-of-type img {
   transition: var(--fast-trans);
 }
 
+
+
 /*Footer pg 2*/
+
 div footer {
   background-color: var(--light-gray);
   align-content: center;
@@ -758,6 +783,7 @@ div footer {
   padding-left: 1em;
   padding-right: 1em;
 }
+
 
 
 
@@ -829,6 +855,7 @@ div > main > ul:first-of-type li svg > circle:hover {
     transform: rotate(0deg);
   }
 }
+
 
 form > button:hover,
 div > main > div:nth-last-of-type(2) > a:hover {
