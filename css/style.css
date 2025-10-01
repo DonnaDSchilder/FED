@@ -760,8 +760,9 @@ div > main > div:last-of-type {
   justify-content: end;
   position: fixed; /*blijft altijd in beeld*/
   bottom: 0;
+  right: 0;
   padding-bottom: 2em;
-  width: 98%;
+  padding-right: 1em;
 }
 
 div > main > div:last-of-type img {
@@ -908,4 +909,5 @@ footer > ul img:hover {
 
 
 /*Laatste check:https://chatgpt.com/share/68dda0f3-fbe0-800c-8fd9-039fe11032d4*/
+
 
