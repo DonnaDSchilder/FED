@@ -37,23 +37,26 @@ body{
     overflow-x: hidden; /*zorgt ervoor dat er geen horizontale scroll is, or so we hope*/
 }
 
-div>main {
-    padding: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
-}
 
-body>main>section:first-of-type, /*Body moet erbij anders neemt ie padine 2 mee*/
+
+body>main>section:first-of-type, /*Body moet erbij anders neemt ie pagina 2 mee*/
 main>section:nth-of-type(2),
 main>section:nth-of-type(3),
 form,
+
 main>ul{
     padding: 1em;
     padding-left: 2em;
     padding-right: 2em;
 }
-
+div>main {
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
 button, 
+
+
 a, p{
     font-family: var(--font-fam);
 }
@@ -288,6 +291,10 @@ section ul {
     overscroll-behavior-x: contain;
     gap: 2em;
     padding-bottom: 2em;
+}
+
+section:nth-of-type(3)>ul:last-of-type>li:first-of-type img:first-child{
+    border: 0.1em dotted var(--mid-gray);
 }
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x*/
 
@@ -566,6 +573,7 @@ div>main>section:nth-of-type(3)>img{
     max-width:12em;
 }
 
+
 div>main>section:nth-of-type(3) h3{
     font-size: 1.2em;
     font-weight: 700;
@@ -654,15 +662,20 @@ div main>section:last-of-type{
 
 div main>section:last-of-type h2{
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
+
 }
 
 div main>section:last-of-type summary,
 div main>section:last-of-type details{
     font-family: var(--font-fam);
+    font-size: 1.1em;
+    text-align: center;
 }
 
 div main>section:last-of-type summary{
+    padding-top: 1em;
+    padding-bottom:0.3em;
     font-weight: 700;
     cursor: pointer; 
 }
@@ -761,10 +774,11 @@ div main>ul:last-of-type img{
 /*Footer pg 2*/
 div footer{
     background-color: var(--light-gray);
-    padding-top:1em;
     align-content: center;
     justify-items: center;
     text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 
@@ -866,6 +880,11 @@ a:focus-visible {
     outline-offset: var(--outline-offset)
 }
 
+footer a:focus-visible{
+    outline-offset:0;
+}
+
+
 img:focus-visible,
 button:focus-visible {
     outline: solid 0.15em var(--uniqlo-red);
@@ -933,8 +952,7 @@ form>input:invalid{
 }
 
 
-
-section:nth-of-type(3)>ul:last-of-type>li:first-of-type> img:first-of-type:hover{
+section:nth-of-type(3)>ul:last-of-type>li:first-of-type img:first-of-type:hover{
     box-shadow: 0 0 1em 0 var(--uniqlo-red);
     transition: var(--trans);
     cursor: pointer;
