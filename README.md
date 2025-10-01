@@ -260,6 +260,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
 
   ### Je uitkomst - karakteristiek screenshots:
   Voor deze opdracht heb ik twee pagina's kunnen maken die van elkaar verschillen, met de focus op de Surface Plane.
+  
   *note: de afbeelingen en GIFs zijn gemaakt op DESKTOP formaat zodat de kwaliteit beter is. 
   
   *1. Geluid*
