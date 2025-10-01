@@ -1,971 +1,882 @@
 :root {
-/*var omdat het meerdere keren gebruikt wordt en maakt het makkelijker om de kleur(en) overal te veranderen*/
-    --border-gray: #dadada;
-    --uniqlo-red: #E60013;
-    --black: black;
-    --dark-gray:#6b6b6b;
-    --mid-gray: #6a6969;
-    --light-gray: #F4F4F4;
-    --dark-blue:#2770b2;
-    --light-blue:#ccd7ef;
-    --section-gray: #E8E8E8;
-    --white: rgb(252, 252, 252);
-    --outline-offset: 0.7em;
-    --outline-offset-form: 0.2em;
-    --font-fam: Arial, Helvetica, sans-serif;
-    --trans: 0.4s ease-in-out;
-    --fast-trans: 0.3s ease;
-    --green: rgb(20, 160, 20);
-    --textform-attention: uppercase;
-    scroll-behavior: smooth;
+  /*var omdat het meerdere keren gebruikt wordt en maakt het makkelijker om de kleur(en) overal te veranderen*/
+  --border-gray: #dadada;
+  --uniqlo-red: #e60013;
+  --black: black;
+  --dark-gray: #6b6b6b;
+  --mid-gray: #6a6969;
+  --light-gray: #f4f4f4;
+  --dark-blue: #2770b2;
+  --light-blue: #ccd7ef;
+  --section-gray: #e8e8e8;
+  --white: rgb(252, 252, 252);
+  --outline-offset: 0.7em;
+  --outline-offset-form: 0.2em;
+  --font-fam: Arial, Helvetica, sans-serif;
+  --trans: 0.4s ease-in-out;
+  --fast-trans: 0.3s ease;
+  --green: rgb(20, 160, 20);
+  --textform-attention: uppercase;
+  scroll-behavior: smooth;
 }
 
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion*/
 
-@media (prefers-reduced-motion: reduce){
-    *{
-        animation: none !important;
-        transition: none !important;
-    }
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important; /*Zonder de important werkt het niet*/
+    transition: none !important;
+  }
 }
 
-
-
-body{
-    margin: 0;
-    max-width: 100%;
-    overflow-x: hidden; /*zorgt ervoor dat er geen horizontale scroll is, or so we hope*/
-}
-
-
-
-body>main>section:first-of-type, /*Body moet erbij anders neemt ie pagina 2 mee*/
-main>section:nth-of-type(2),
-main>section:nth-of-type(3),
+/*Body moet erbij anders neemt ie pagina 2 mee*/
+body > main > section:first-of-type,
+main > section:nth-of-type(2),
+main > section:nth-of-type(3),
 form,
-
-main>ul{
-    padding: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-div>main {
-    padding: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-button, 
-
-
-a, p{
-    font-family: var(--font-fam);
+main > ul {
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
+div > main {
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
 
-/*header*/
+body {
+  margin: 0;
+}
+
+button,
+a,
+p {
+  font-family: var(--font-fam);
+}
+
+img,
+button,
+svg,
+a {
+  transition: var(--trans);
+}
+
+
+
+
+/*Header*/
 
 header {
-    padding-top: 1em;
+  padding-top: 1em;
 }
 
 header ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    margin: 0;
-    padding: 0;
-    padding-left: 1em;
-    padding-right: 1em;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 header ul img:nth-of-type(1) {
-    height: 2em;
+  height: 2em;
 }
 
 header ul button {
-    height: 3em;
-    border: none;
-    background: none;
+  height: 3em;
+  border: none;
+  background: none;
 }
 
-nav:nth-last-child(2)>ul:nth-of-type(1),
-div>main> nav ul:nth-of-type(1)  {
-    list-style: none;
-    display: flex;
-    gap: 0.5em;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    padding: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    border-top: 0.1em solid var(--border-gray);
-    border-bottom: 0.1em solid var(--border-gray);
+nav:nth-last-child(2) > ul:nth-of-type(1),
+div > main > nav ul:nth-of-type(1) {
+  list-style: none;
+  display: flex;
+  gap: 0.5em;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-top: 0.1em solid var(--border-gray);
+  border-bottom: 0.1em solid var(--border-gray);
 }
-
-
-
-
 
 ul li,
 div footer p {
-    font-family: var(--font-fam);
-    text-transform: var(--textform-attention);
-
+  font-family: var(--font-fam);
+  text-transform: var(--textform-attention);
 }
 
-
-
-main>ul:first-of-type,
-div>nav ul:nth-of-type(1){
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding:1em;
-    margin:0;
-    outline: 1em;
-    border-bottom: 0.1em solid var(--border-gray);
+main > ul:first-of-type,
+div > nav ul:nth-of-type(1) {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1em;
+  margin: 0;
+  outline: 1em;
+  border-bottom: 0.1em solid var(--border-gray);
 }
 
-main>ul:first-of-type a{
-    color: var(--black);
-    text-decoration: underline;
-    text-decoration-color: var(--uniqlo-red);
-    text-underline-offset: 0.2em;
-
+main > ul:first-of-type a {
+  color: var(--black);
+  text-decoration: underline;
+  text-decoration-color: var(--uniqlo-red);
+  text-underline-offset: 0.2em;
 }
+
+/*hamburger menu*/
+
+header > nav {
+  position: fixed; /*Het staat los maar beïnvloed de layout niet, bij absolute schuift het binnen de pagina & parent*/
+  top: 0;
+  right: 0;
+  min-height: 20vh;
+  max-height: 40vh;
+  min-width: 30vh;
+  max-width: 40vh;
+  background-color: var(--white);
+  transform: translateX(100%); /* Verstopt zich 100% buiten beeld */
+  transition: transform 0.2s ease-in-out; /*zorgt voor een smooth overgang om terug in het scherm te komen*/
+  border: none;
+}
+
+header > nav.showMenu {
+  transform: translateX(0); /* schuift in beeld */
+  box-shadow: 0.1em 0.2em 1em var(--black);
+  transition: 0.3s ease-in-out;
+}
+
+header > nav > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 2em;
+  margin: 0;
+}
+
+header nav button {
+  position: absolute;
+  top: 1.2em;
+  right: 1.65em;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+header nav a {
+  text-align: left;
+  font-size: 1em;
+  color: var(--black);
+}
+
+header > nav > ul > li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: underline;
+  text-decoration-color: var(--uniqlo-red);
+  text-underline-offset: 0.2em;
+  padding-top: 2em;
+  padding-left: 2em;
+  transition: var(--fast-trans);
+}
+
+header > nav li svg {
+  width: 4em;
+  padding-left: 2em;
+  transition: var(--fast-trans);
+}
+
 /*Form*/
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height:28em;
-    background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 28em;
+  background-color: var(--light-gray);
 }
 
-
-form>p {
-    text-wrap: balance;
-    min-width: 50%;
-    max-width: 60%;
-    font-size:1.1em;
+form > p {
+  text-wrap: wrap;
+  min-width: 50%;
+  max-width: 60%;
+  font-size: 1.1em;
 }
 
-form> h3 {
-    font-weight: 500;
-    font-size: 1.5em;
-    margin:0;
+form > h3 {
+  font-weight: 500;
+  font-size: 1.5em;
+  margin: 0;
 }
 
-
-form>button {
-    margin-top: 1em;
-    background-color: var(--uniqlo-red);
-    border: 0.09em solid var(--black);
-    padding: 1em;
-    color: var(--white);
-    font-weight: 400;
-    transition: var(--fast-trans);
+form > button {
+  margin-top: 1em;
+  background-color: var(--uniqlo-red);
+  border: 0.09em solid var(--black);
+  padding: 1em;
+  color: var(--white);
+  font-weight: 400;
+  transition: var(--fast-trans);
 }
 
-form>label {
-    font-family: var(--font-fam);    
-    padding-bottom: 0.5em;
-    font-style: italic;
-    font-size: 1.2em;
+form > label {
+  font-family: var(--font-fam);
+  padding-bottom: 0.5em;
+  font-style: italic;
+  font-size: 1.2em;
 }
 
-form>input {
-    margin-bottom: 1em;
-    padding-left: 1em;
-    border: 0.15em solid var(--black);
+form > input {
+  margin-bottom: 1em;
+  padding-left: 1em;
+  border: 0.15em solid var(--black);
 }
 
-form>input:nth-of-type(3) {
-    width: 20em;
-    text-align: left;
+form > input:nth-of-type(3) {
+  width: 20em;
+  text-align: left;
 }
 
-form>input::placeholder{
-    font-style: italic;
-    color: var(--mid-gray);
+form > input::placeholder {
+  font-style: italic;
+  color: var(--mid-gray);
 }
-
-
-
 
 /*Footer*/
 
-footer>ul{
-    display: flex;
-    height: 3em;
-    list-style: none;
-    background-color: var(--light-gray);
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin: 0;
+footer > ul {
+  display: flex;
+  height: 3em;
+  list-style: none;
+  background-color: var(--light-gray);
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0;
 }
 footer ul img {
-    height: 2.5em;
-    transition: var(--trans);
-
+  height: 2.5em;
+  transition: var(--trans);
 }
 
-main>ul:last-of-type a {
-    text-decoration: none;
-    color: var(--black)
+main > ul:last-of-type a {
+  text-decoration: none;
+  color: var(--black);
 }
 
-main>ul:last-of-type {
-    margin: 0;
+main > ul:last-of-type {
+  margin: 0;
 }
 
-footer>nav>ul a{
-    text-decoration-color: var(--uniqlo-red);
-    text-underline-offset: 0.2em;
-    color: var(--black)
+footer > nav > ul a {
+  text-decoration-color: var(--uniqlo-red);
+  text-underline-offset: 0.2em;
+  color: var(--black);
 }
-
-footer>ul div{
-    display: flex;
-}
-
-
-
 
 h1 {
-    font-family: var(--font-fam);
-    font-weight: 400;
-    font-size: 2.5em;
-    text-transform: var(--textform-attention);
+  font-family: var(--font-fam);
+  font-weight: 400;
+  font-size: 2.5em;
+  text-transform: var(--textform-attention);
 }
 
-main>h1{
-    padding-left: 1em;
+main > h1 {
+  padding-left: 1em;
 }
 
 h2 {
-    font-family: var(--font-fam);
-    font-weight: 400;
-    margin:0.5em;
-    text-transform: var(--textform-attention);
+  font-family: var(--font-fam);
+  font-weight: 400;
+  margin: 0.5em;
+  text-transform: var(--textform-attention);
 }
 
 h3 {
-    font-family: var(--font-fam);
-    font-weight: 500;
-    font-size: 2em;
-
+  font-family: var(--font-fam);
+  font-weight: 500;
+  font-size: 2em;
 }
 
 h4 {
-    font-family: var(--font-fam);
-    font-weight: 400;
-    font-size: 1.4em;
-    margin: 0;
+  font-family: var(--font-fam);
+  font-weight: 400;
+  font-size: 1.4em;
+  margin: 0;
 }
 
 h5 {
-    font-family: var(--font-fam);
-    font-weight: 400;
-    font-size: 1.2em;
-    color: var(--dark-gray);
+  font-family: var(--font-fam);
+  font-weight: 400;
+  font-size: 1.2em;
+  color: var(--dark-gray);
 }
-
 
 section ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    gap: 2em;
-    padding-bottom: 2em;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  gap: 2em;
+  padding-bottom: 2em;
 }
 
-section:nth-of-type(3)>ul:last-of-type>li:first-of-type img:first-child{
-    border: 0.1em dotted var(--mid-gray);
-}
-/*https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x*/
-
-
-
-
-/*categorie*/
-
-main>section:first-of-type>ul img {
-    height: 9em;
-    border-radius: 50%;
+section:nth-of-type(3) > ul:last-of-type > li:first-of-type img:first-child {
+  border: 0.15em dotted var(--uniqlo-red);
 }
 
-main>section:first-of-type>ul {
-    justify-content: space-between;
+/*Categorie*/
+
+main > section:first-of-type > ul img {
+  height: 9em;
+  border-radius: 50%;
 }
 
-main>section:first-of-type>ul>li{
-    max-width: 10em;
-    padding: 1em
+main > section:first-of-type > ul {
+  justify-content: space-between;
 }
 
-main>section:first-of-type>ul>li>a {
-    text-decoration:none;
-    color: var(--black);
-    transition: var(--fast-trans);
+main > section:first-of-type > ul > li {
+  max-width: 10em;
+  padding: 1em;
+}
+
+main > section:first-of-type > ul > li > a {
+  text-decoration: none;
+  color: var(--black);
+  transition: var(--fast-trans);
 }
 
 section ul li {
-    text-align: center;
+  text-align: center;
 }
 
-section>ul li img {
-    height: 18rem;
-    transition: var(--trans);
+section > ul li img {
+  height: 18rem;
+  transition: var(--trans);
 }
 
-
-
-
-section:nth-of-type(4)>article {
-    display: grid;
-    justify-content: center;
-    text-align: center;
+section:nth-of-type(4) > article {
+  display: grid;
+  justify-content: center;
+  text-align: center;
 }
 
-section:nth-of-type(5)>img {
-    height: 12rem;
+section:nth-of-type(5) > img {
+  height: 12rem;
 }
 
 section:nth-of-type(5) {
-    display: grid;
-    justify-content: center;
-    text-align: left;
-    text-wrap: balance;
+  display: grid;
+  justify-content: center;
+  text-align: left;
+  text-wrap: balance;
 }
 
-section>div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: 400;
+section > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
 }
 
-section>div>a {
-    color: var(--black);
-    text-decoration-color: var(--uniqlo-red);
-    text-underline-offset: 0.2em;
-    text-transform: var(--textform-attention);
-    font-size: 1.2em;
+section > div > a {
+  color: var(--black);
+  text-decoration-color: var(--uniqlo-red);
+  text-underline-offset: 0.2em;
+  text-transform: var(--textform-attention);
+  font-size: 1.2em;
 }
 
-
-section:nth-of-type(5)>p {
-    margin: 0;
-    padding-left: 1em;
+section:nth-of-type(5) > p {
+  margin: 0;
+  padding-left: 1em;
 }
-
-
-
 
 /*broodkruimels*/
 
-main>ul:nth-of-type(2) {
-    list-style: none;
-    display: flex;
-    gap: 1em;
-    align-items: start;
-    text-align: start;
-    padding:0;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    font-size: smaller;
-    padding-top: 3em;
+main > ul:nth-of-type(2) {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  align-items: start;
+  text-align: start;
+  padding: 0;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  font-size: smaller;
+  padding-top: 3em;
 }
 
-main>ul:nth-of-type(2)>li {
-    text-transform: none;
-    text-align: center;
+main > ul:nth-of-type(2) > li {
+  text-transform: none;
+  text-align: center;
 }
-main>ul:nth-of-type(2)>li>a {
-    color: var(--dark-gray);
-}
-
-main>ul:nth-of-type(2)>li:first-of-type>a,
-body>main>ul:nth-of-type(2)>li:nth-of-type(2){
-    font-style: italic;
-}
-main>ul:nth-of-type(2)>li:last-of-type>a{
-    font-weight: 600;
+main > ul:nth-of-type(2) > li > a {
+  color: var(--dark-gray);
 }
 
-main>section {
-    padding-top: 1em;
-    padding-bottom: 1.5em;
+main > ul:nth-of-type(2) > li:first-of-type > a,
+body > main > ul:nth-of-type(2) > li:nth-of-type(2) {
+  font-style: italic;
+}
+main > ul:nth-of-type(2) > li:last-of-type > a {
+  font-weight: 600;
 }
 
-
-
-
+main > section {
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+}
 
 /*pagina 2*/
 
-div>header {
-    padding-top: 1em;
+div > header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
 }
 
-div>header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+div > header img {
+  height: 2.5em;
+}
+div > main {
+  padding: 0;
 }
 
-div> header img {
-    height: 2.5em;
+div > main > section:nth-of-type(2),
+div > main > section:nth-of-type(3),
+div > main > ul li,
+div > main > ul:last-of-type,
+div > main > section:nth-of-type(4) {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
-div>main{
-    padding:0;
-}
-
-div>main>section:nth-of-type(2),
-div>main>section:nth-of-type(3),
-div>main>ul li,
-div>main>ul:last-of-type,
-div>main>section:nth-of-type(4) {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-}
-
-
-
 
 /*Foto*/
 
-div section:first-of-type > img{
-    width: 100%;
+div section:first-of-type > img {
+  width: 100%;
 }
 
-
-
-
-div>main>div:first-of-type{
-    display: flex;
-    flex-direction: column;
-    text-align:center;
-    max-width: 60%;
-    margin:0 auto; /*auto verdeelt de ruimte gelijk tussen links en rechts*/
-    align-items: center;
-    padding-bottom: 4em;
+div > main > div:first-of-type {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto; /*auto verdeelt de ruimte gelijk tussen links en rechts*/
+  align-items: center;
+  padding-bottom: 4em;
 }
-
 
 /*Pagina Nav*/
-div>main> nav{
-    padding-bottom: 2em;
+div > main > nav {
+  padding-bottom: 2em;
 }
 
-div>main> nav:first-of-type>ul{
-    background-color: var(--light-gray);
+div > main > nav:first-of-type > ul {
+  background-color: var(--light-gray);
 }
 
-div>main>nav:first-of-type>ul>li a {
-    color: var(--black);
-    text-decoration: none;
-
+div > main > nav:first-of-type > ul > li a {
+  color: var(--black);
+  text-decoration: none;
 }
-
-
 
 /*Jouw ontwerp*/
 
-div>main>section:nth-of-type(2){
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+div > main > section:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 div section:nth-of-type(2) > p {
-    min-width: 40%;
-    max-width: 60%;
-    text-align: center;
-    font-weight: 400;
+  min-width: 40%;
+  max-width: 60%;
+  text-align: center;
+  font-weight: 400;
 }
 
-div>main>ul:first-of-type{
-    display: grid;
-    grid-template-columns: 50% 50%; /*2 kolommen die 50% van de parent in beslag nemen*/ 
-    justify-items: center;
-    border-bottom: none;
-    height: 30em;
+div > main > ul:first-of-type {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*2 kolommen die 50% van de parent in beslag nemen*/
+  justify-items: center;
+  border-bottom: none;
+  height: 30em;
 }
 
-div>main>ul:first-of-type>li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+div > main > ul:first-of-type > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-div>main>ul:first-of-type>li>h3,
-div>main>ul:first-of-type>li>p{
-    text-align: center;
-    max-width: 95%;
-    margin:0;
-    padding:0.5em;
+div > main > ul:first-of-type > li > h3,
+div > main > ul:first-of-type > li > p {
+  text-align: center;
+  max-width: 95%;
+  margin: 0;
+  padding: 0.5em;
 }
 
-
-div>main>ul:first-of-type img,
-div>main>ul:first-of-type svg{
-    max-width:7em;
-    transition: var(--trans);
+div > main > ul:first-of-type img,
+div > main > ul:first-of-type svg {
+  max-width: 7em;
+  transition: var(--trans);
 }
 
-div>main>ul:first-of-type li svg>circle{
-    transition: var(--trans);
+div > main > ul:first-of-type li svg > circle {
+  transition: var(--trans);
 }
 
-
-
-div>main p{
-    font-size: 0.8em;
-    text-transform: none;
-    margin:0;
+div > main p {
+  font-size: 0.8em;
+  text-transform: none;
+  margin: 0;
 }
 
-
-div>main>section:nth-of-type(2)>h2{
-    font-weight: 500;
-    font-size: 2em;
+div > main > section:nth-of-type(2) > h2 {
+  font-weight: 500;
+  font-size: 2em;
 }
 
-div>main>ul:first-of-type h3{
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
+div > main > ul:first-of-type h3 {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
 }
 
-
-div>main>section:nth-of-type(2)>img:first-of-type{
-    max-width:30em;
-    min-width:4em;
+div > main > section:nth-of-type(2) > img:first-of-type {
+  max-width: 30em;
+  min-width: 4em;
 }
-
 
 /*Bontekoe*/
 
-div>main>section:nth-of-type(3){
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+div > main > section:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-div>main>section:nth-of-type(3)>img{
-    min-width:15%;
-    max-width:12em;
+div > main > section:nth-of-type(3) > img {
+  min-width: 15%;
+  max-width: 12em;
 }
 
-
-div>main>section:nth-of-type(3) h3{
-    font-size: 1.2em;
-    font-weight: 700;
+div > main > section:nth-of-type(3) h3 {
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 /*Bontekoe man*/
 
-div>main section:nth-of-type(4){
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+div > main section:nth-of-type(4) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-div>main section:nth-of-type(4)> img{
-    padding: 2em;
-    max-width: 80%;
-    animation-name:bonteco;
-    animation-duration:0.5s;
-    animation-timeline: view(); /*Pas wanneer het in de viewport komt, speelt het af, nog niet voor alle browsers beschikbaar*/
-    
+div > main section:nth-of-type(4) > img {
+  padding: 2em;
+  max-width: 80%;
+  animation-name: bonteco;
+  animation-duration: 0.5s;
+  animation-timeline: view();
+  /*Pas wanneer het in de viewport komt, speelt het af, nog niet voor alle browsers beschikbaar*/
 }
-div>main section:nth-of-type(4) p{
-    padding: 2em;
-    padding-left:2em;
-    padding-right:2em;
-    text-align: center;
-    min-width: 10%;
-    max-width: 80%;
-    padding-bottom: 0;
+div > main section:nth-of-type(4) p {
+  padding: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+  min-width: 10%;
+  max-width: 80%;
+  padding-bottom: 0;
 }
-
-
 
 /*https://www.youtube.com/watch?v=UmzFk68Bwdk 4:02*/
 
-@keyframes bonteco{
-    0%  {
-        scale:0;
-        opacity: 0;
-    }
-    100% {
-        scale:1;
-        opacity:1;
-    } /*Begin punt, punt 0 dus voordat er voorbij gescrolt wordt*/
+@keyframes bonteco {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  } /*Begin punt, punt 0 dus voordat er voorbij gescrolt wordt*/
 }
 
+/*Shirts*/
 
-
-
-/*Shirt*/
-
-div main>ul:last-of-type{
-    display: grid;
-    grid-template-columns: 50% 50%; /*Twee kolommen onder elkaar*/
-    justify-items: center;
-    padding-bottom: 5em;
+div main > ul:last-of-type {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*Twee kolommen onder elkaar*/
+  justify-items: center;
+  padding-bottom: 5em;
 }
 
-
-div main>ul:last-of-type h4{
-    padding-top: 1em;
-    font-weight: bold;
-    max-width: 150em;
-    padding-bottom: 1em;
+div main > ul:last-of-type h4 {
+  padding-top: 1em;
+  font-weight: bold;
+  max-width: 150em;
+  padding-bottom: 1em;
 }
 
-div main>ul:last-of-type p{
-    min-width: 7em;
-    max-width: 70em;
+div main > ul:last-of-type p {
+  min-width: 7em;
+  max-width: 70em;
 }
 
-div>main>ul:last-of-type img{
-    animation-name:bonteco;
-    animation-duration:0.5s;
-    animation-timeline: view();
+div > main > ul:last-of-type img {
+  animation-name: bonteco;
+  animation-duration: 0.5s;
+  animation-timeline: view();
 }
-
-
 
 /*FAQ*/
 
-div main>section:last-of-type{
-    background-color:var(--section-gray);
-    padding-left: 2em;
-    padding-right: 2em;
+div main > section:last-of-type {
+  background-color: var(--section-gray);
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
-div main>section:last-of-type h2{
-    text-align: center;
-    padding-bottom: 0.5em;
-
+div main > section:last-of-type h2 {
+  text-align: center;
+  padding-bottom: 0.5em;
 }
 
-div main>section:last-of-type summary,
-div main>section:last-of-type details{
-    font-family: var(--font-fam);
-    font-size: 1.1em;
-    text-align: center;
+div main > section:last-of-type summary,
+div main > section:last-of-type details {
+  font-family: var(--font-fam);
+  font-size: 1.1em;
+  text-align: center;
 }
 
-div main>section:last-of-type summary{
-    padding-top: 1em;
-    padding-bottom:0.3em;
-    font-weight: 700;
-    cursor: pointer; 
+div main > section:last-of-type summary {
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-div main>section:last-of-type details{
-    max-width:80em ;
+div main > section:last-of-type details {
+  max-width: 80em;
 }
-
-
 
 /*Ontdek onze UT-collecties*/
 
-div>main>div:last-of-type{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 10em;
+div > main > div:nth-last-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10em;
 }
 
-div>main>div:last-of-type>a{
-    text-decoration: none;
-    color:var(--white);
-    transition: var(--trans);
-    cursor:pointer;
-    animation-name:ontdek-ut;
-    animation-duration:1.5s;
-    animation-iteration-count:5;
-    animation-delay: 50s; /*Dit geeft de gebruiker nog de tijd om de pagina door te lezen*/
+div > main > div:nth-last-of-type(2) > a {
+  text-decoration: none;
+  color: var(--white);
+  transition: var(--trans);
+  cursor: pointer;
+  animation-name: ontdek-ut;
+  animation-duration: 1.5s;
+  animation-iteration-count: 5;
+  animation-delay: 50s; /*Dit geeft de gebruiker nog de tijd om de pagina door te lezen*/
 }
 
-div>main>div:last-of-type>a{
-    background-color:var(--uniqlo-red);
-    border: 0.09em solid var(--black);
-    font-weight: 600;
-    font-size: 1.3em;
-    padding: 1em;
-    margin:0;
-    width: 7.5em;
+div > main > div:nth-last-of-type(2) > a {
+  background-color: var(--uniqlo-red);
+  border: 0.09em solid var(--black);
+  font-weight: 600;
+  font-size: 1.3em;
+  padding: 1em;
+  margin: 0;
+  width: 7.5em;
 }
 
-@keyframes ontdek-ut{
-    0%{
-        scale:1;
-    }
+@keyframes ontdek-ut {
+  0% {
+    scale: 1;
+  }
 
-    50%{
-        scale:1.2;
-    }
+  50% {
+    scale: 1.1;
+  }
 
-    100%{
-        scale:1;
-    }
+  100% {
+    scale: 1;
+  }
 }
 
 /*To Top*/
 
-div>main nav:last-of-type{
-    position: fixed; /*blijft altijd in beeld*/
-    bottom:0;
-    width: 100%; 
+div > main > div:last-of-type {
+  display: flex;
+  justify-content: end;
+  position: fixed; /*blijft altijd in beeld*/
+  bottom: 0;
+  padding-bottom: 2em;
+  width: 98%;
 }
 
-div>main nav:last-of-type ul{
-    display: flex;
-    list-style: none; 
-    justify-content: right;
-    border:none;
-    padding-bottom:2em;
+div > main > div:last-of-type img {
+  max-width: 3em;
+  border-radius: 90%;
+  box-shadow: 0.2em 0.2em 0 var(--uniqlo-red);
+  outline: 0.1em solid var(--black);
+  transition: var(--fast-trans);
 }
-
-div>main nav:last-of-type img{
-    max-width: 3em;
-    border-radius: 90%;
-    box-shadow:0.2em 0.2em 0 var(--uniqlo-red);
-    outline: 0.1em solid var(--black);
-    transition: var(--fast-trans);
-
-}
-
-div>main nav:last-of-type a{
-    border:none;
-    background-color: transparent;
-}
-
-
-
-
-
-div main>ul:last-of-type img{
-    min-width: 9em;
-    max-width: 10em;
-}
-
 
 /*Footer pg 2*/
-div footer{
-    background-color: var(--light-gray);
-    align-content: center;
-    justify-items: center;
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
+div footer {
+  background-color: var(--light-gray);
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
-
-
-
-/*hamburger menu*/
-
-header>nav {
-    position: fixed; /*Het staat los maar beïnvloed de layout niet, bij absolute schuift het binnen de pagina & parent*/
-    top: 0;
-    right: 0;
-    min-height: 20vh;
-    max-height:40vh;       
-    min-width:30vh;
-    max-width: 40vh;
-    background-color: var(--white);
-    transform: translateX(100%);  /* Verstopt zich 100% buiten beeld */
-    transition: transform 0.2s ease-in-out; /*zorgt voor een smooth overgang om terug in het scherm te komen*/
-    border:none;
-}
-    
-
-header>nav.showMenu {
-    transform: translateX(0);     /* schuift in beeld */
-    box-shadow:0.1em 0.2em 1em var(--black);
-    transition: 0.3s ease-in-out;
-    
-}
-
-header>nav>ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding: 2em;
-    margin: 0;
-}
-
-header nav button {
-    position: absolute;
-    top: 1.2em;  
-    right: 1.65em; 
-    background: none; 
-    border: none;   
-    padding:0;
-}
-
-header nav a{
-    text-align: left;
-    font-size: 1em;
-    color:var(--black);
-}
-
-header>nav>ul>li a{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration:underline;
-    text-decoration-color: var(--uniqlo-red);
-    text-underline-offset: 0.2em;
-    padding-top: 2em;
-    padding-left: 2em;
-    transition: var(--fast-trans);
-}
-
-
-
-header>nav li svg {
-    width:4em;
-    padding-left: 2em;
-    transition: var(--fast-trans);
-}
 
 
 
 /*States*/
 
-header ul button:hover{
-    cursor: pointer; 
+header ul button:hover {
+  cursor: pointer;
 }
 
-a:hover{
-    color: var(--black);
-    font-weight: bold;
-    transition: var(--fast-trans);
-
+a:hover {
+  color: var(--black);
+  font-weight: bold;
+  transition: var(--fast-trans);
 }
 
-a:hover svg polyline{
-    stroke-width: 2.5em;
-    transition: var(--fast-trans);
-
-}
-div>main>div:last-of-type>a:hover{   
-    font-weight: bold;
-    transition: var(--trans);
-}
-a:focus-visible {
-    outline: solid 0.15em var(--uniqlo-red);
-    outline-offset: var(--outline-offset)
-}
-
-footer a:focus-visible{
-    outline-offset:0;
+a:hover svg polyline {
+  stroke-width: 2.5em;
+  transition: var(--fast-trans);
 }
 
 
-img:focus-visible,
+div > main > div::nth-last-of-type(2) > a:hover {
+  font-weight: bold;
+  transition: var(--trans);
+}
+a:focus-visible{
+  outline: solid 0.15em var(--uniqlo-red);
+  outline-offset: var(--outline-offset);
+}
+
+/*Faq state*/
+div > main > section:last-of-type summary:focus-visible {
+  outline: solid 0.15em var(--uniqlo-red);
+  outline-offset: 0.2em;
+}
+
+
+footer a:focus-visible {
+  outline-offset: 0;
+}
+
 button:focus-visible {
-    outline: solid 0.15em var(--uniqlo-red);
-    outline-offset: var(--outline-offset)
+  outline: solid 0.15em var(--uniqlo-red);
+  outline-offset: var(--outline-offset);
 }
-
 
 /*Gezicht svg*/
 
-div>main>ul:first-of-type li svg:hover{
-    animation-name: face;
-    animation-duration: 1s;
-    transition: var(--trans);
+div > main > ul:first-of-type li svg:hover {
+  animation-name: face;
+  animation-duration: 1s;
+  transition: var(--trans);
 }
 
-div>main>ul:first-of-type li svg>circle:hover{
-    fill:var(--light-gray);
-    transition: var(--trans);
+div > main > ul:first-of-type li svg > circle:hover {
+  fill: var(--light-gray);
+  transition: var(--trans);
 }
 
 @keyframes face {
-    0%  {
-        transform:rotate(0deg);
-    }
-    50% {
-        
-        transform:rotate(45deg);
-    } 
-    100%{
-        transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+form > button:hover,
+div > main > div:nth-last-of-type(2) > a:hover {
+  transform: scale(1.1);
+  transition: var(--fast-trans);
+  box-shadow: 0.2em 0.2em 0 var(--black);
+}
+
+form > button:active,
+div > main > div:nth-last-of-type(2) > a:active {
+  background-color: var(--white);
+  color: var(--uniqlo-red);
+  box-shadow: 0.2em 0.2em 0 var(--black);
+  transition: var(--trans);
+}
+
+form > input:focus {
+  border-style: dashed;
+  outline: none;
+}
+
+form > input:valid {
+  border-color: var(--green);
+  outline: none;
+}
+
+form > input:invalid {
+  border-color: var(--black);
+}
+
+section:nth-of-type(3)
+  > ul:last-of-type
+  > li:first-of-type
+  img:first-of-type:hover {
+  box-shadow: 0 0 1em 0 var(--uniqlo-red);
+  cursor: pointer;
+}
+
+div main > div img:last-child:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+footer > ul img:hover {
+  transform: scale(1.3);
+  cursor: pointer;
 }
 
 
-form>button:hover,
-div>main>div:last-of-type>a:hover {
-    transform: scale(1.1);
-    transition: var(--fast-trans);
-    box-shadow:0.2em 0.2em 0 var(--black);
-}
 
-form>button:active,
-div>main>div:last-of-type>a:active {
-    background-color: var(--white);
-    color: var(--uniqlo-red);
-    box-shadow:0.2em 0.2em 0 var(--black);
-    transition: var(--trans);
-}
-
-
-form>input:focus{
-    border-style:dashed;
-    outline: none;
-}
-
-
-form>input:valid{
-    border-color:var( --green);
-    outline: none;
-}
-
-
-form>input:invalid{
-    border-color:  var(--black);
-}
-
-
-section:nth-of-type(3)>ul:last-of-type>li:first-of-type img:first-of-type:hover{
-    box-shadow: 0 0 1em 0 var(--uniqlo-red);
-    transition: var(--trans);
-    cursor: pointer;
-}
-
-div nav:last-of-type img:hover{
-    transform: scale(1.1);
-    transition: var(--trans);
-    cursor: pointer;
-}
-
-footer>ul img:hover{
-    transform: scale(1.3);
-    transition: var(--trans);
-    cursor: pointer;
-}
+/*Laatste check:https://chatgpt.com/share/68dda0f3-fbe0-800c-8fd9-039fe11032d4*/
