@@ -25,7 +25,6 @@
   <summary>Uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   UT PRINT COLLECTIES
@@ -68,7 +67,7 @@
   Gebruikt soms meer dan 1 h1 per pagina, dit is iets waar ik dus op moet letten en zeker anders moet doen.
 
   ### Images
-  Er missen soms alt tekst, en soms is het niet duidelijk genoeg wat er te zien is op de foto, ook mist er soms een beschrijving voor afbeeldingne met tekst; wat de tekst op de afbeelding is, wordt niet duidelijk gemaakt.
+  Er missT soms alt tekst, en soms is het niet duidelijk genoeg wat er te zien is op de foto, ook mist er soms een beschrijving voor afbeeldingEN met tekst; wat de tekst op de afbeelding is, wordt niet duidelijk gemaakt.
   
   ### Media
   Er wordt gebruik gemaakt van autoplay op de homepagina, maar dit ga ik niet na maken dus hier hoef ik mij niet druk op te maken.
@@ -113,7 +112,6 @@
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
@@ -141,8 +139,6 @@ Dit gesprek werd vooral gebruikt om te checken of alles goed ging en of er nog v
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -177,7 +173,6 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
 
   ### Content
@@ -241,7 +236,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
 
   ### Verslag van meeting
  - Ik heb vragen gesteld over en knop die slecht reageerde op mijn andere knop, waardoor het niet afgespeeld werd. Dit heb ik aangepast door in mijn java neer te zetten dat als(if) de knop bestaat, dat dan pas de fucntion wordt uitgevoerd. Dit was de oplossing voor mijn probleem.
- - Ik merkte tijdens het testen van de focus-mode, mijn linkejs werden afgesneden, dit is natuurlijk niet de bedoeling. Dit he ik kunnen aanpassen door een kleine paddign toe tevoegen waardoor de focus nu niet afgesneden wordt door de < li >!
+ - Ik merkte tijdens het testen van de focus-mode, mijn linkjes werden afgesneden, dit is natuurlijk niet de bedoeling. Dit he ik kunnen aanpassen door een kleine paddign toe tevoegen waardoor de focus nu niet afgesneden wordt door de < li >!
   
 
 </details>
@@ -306,7 +301,7 @@ Ik moet ook niet vergen een id te zetten bij mijn form input anders is dat een e
   maar ik bleef tegen hetzelfde probleem aanlopen waardoor ik jammer genoeg dit heb moeten weglaten. Ik heb wel de t-shirt's van de sectie meegenomen, maar de uitleg van      het goede doel heb ik moeten weglaten.
   <img src="readme-images/hope-away-from-home.png" width="375px" alt="bummer">
 
-  Iets wat zeker niet gemakkelijk ging was het toevoegen van een hamburger menu. De basis ging goed, de knop om het menu weer te verbergen bleef zich verspringen en als het   uibeeld was, had ik last van een horizontale scroll. Maar, gelukkig, heb ik dit kunnen oplossen door de opdracht uit de les nog een keer te maken en lukte het mij om dit    toch nog op te kunnen lossen.
+  Iets wat zeker niet gemakkelijk ging was het toevoegen van een hamburger menu. De basis ging goed, de knop om het menu weer te verbergen bleef zich verspringen en als het   uitbeeld was, had ik last van een horizontale scroll. Maar, gelukkig, heb ik dit kunnen oplossen door de opdracht uit de les nog een keer te maken en lukte het mij om dit    toch nog op te kunnen lossen.
 
   <img src="readme-images/hammie.png" width="375px" alt="bummer">
 </details>
