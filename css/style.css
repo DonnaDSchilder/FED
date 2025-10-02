@@ -48,6 +48,7 @@ div > main {
 
 body {
   margin: 0;
+  overflow-x: hidden
 }
 
 button,
@@ -650,7 +651,7 @@ div > main section:nth-of-type(4) p {
 
 div main > ul:last-of-type {
   display: grid;
-  grid-template-columns: 1fr 1fr; /*Twee kolommen onder elkaar*/
+  grid-template-columns: 50% 50%; /*Twee kolommen onder elkaar*/
   justify-items: center;
   padding-bottom: 5em;
 }
@@ -658,17 +659,17 @@ div main > ul:last-of-type {
 div main > ul:last-of-type h4 {
   padding-top: 1em;
   font-weight: bold;
-  max-width: 150em;
+  max-width: 110em;
   padding-bottom: 1em;
 }
 
 div main > ul:last-of-type p {
-  font-size: 0.9em;
   min-width: 7em;
   max-width: 70em;
 }
 
 div > main > ul:last-of-type img {
+  max-width: 100%;
   animation-name: bonteco;
   animation-duration: 0.5s;
   animation-timeline: view();
@@ -760,9 +761,8 @@ div > main > div:last-of-type {
   justify-content: end;
   position: fixed; /*blijft altijd in beeld*/
   bottom: 0;
-  right: 0;
   padding-bottom: 2em;
-  padding-right: 1em;
+  width: 98%;
 }
 
 div > main > div:last-of-type img {
@@ -909,5 +909,3 @@ footer > ul img:hover {
 
 
 /*Laatste check:https://chatgpt.com/share/68dda0f3-fbe0-800c-8fd9-039fe11032d4*/
-
-
